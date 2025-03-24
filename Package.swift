@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "pop",
-            path: "Carthage/Build/pop.xcframework"),
+            path: "./Carthage/Build/pop.xcframework"),
         .testTarget(
             name: "popTests",
             dependencies: ["pop"]
