@@ -1,0 +1,702 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/okferret/Library/Developer/Xcode/DerivedData/pop-fpasdywvrxdspodhqwofarchbbgu/Build/Products/Release-appletvsimulator/pop.framework/pop'
+relocations:
+  - { offset: 0x27, size: 0x8, addend: 0x0, symName: __Z27POPAnimationDragCoefficientv, symObjAddr: 0x0, symBinAddr: 0x27F8, symSize: 0x18 }
+  - { offset: 0xCF, size: 0x8, addend: 0x0, symName: __Z27POPAnimationDragCoefficientv, symObjAddr: 0x0, symBinAddr: 0x27F8, symSize: 0x18 }
+  - { offset: 0x112, size: 0x8, addend: 0x0, symName: '-[CAAnimation(POPAnimationExtras) pop_applyDragCoefficient]', symObjAddr: 0x18, symBinAddr: 0x2810, symSize: 0x44 }
+  - { offset: 0x16E, size: 0x8, addend: 0x0, symName: '+[POPSpringAnimation(POPAnimationExtras) convertBounciness:speed:toTension:friction:mass:]', symObjAddr: 0x5C, symBinAddr: 0x2854, symSize: 0x108 }
+  - { offset: 0x2E1, size: 0x8, addend: 0x0, symName: '+[POPSpringAnimation(POPAnimationExtras) convertTension:friction:toBounciness:speed:]', symObjAddr: 0x164, symBinAddr: 0x295C, symSize: 0xF0 }
+  - { offset: 0x8C1, size: 0x8, addend: 0x0, symName: __ZN3POP7Vector4IdE2_vE, symObjAddr: 0x2A90, symBinAddr: 0x16D38, symSize: 0x0 }
+  - { offset: 0x3CD0, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState15computeProgressEv, symObjAddr: 0x1640, symBinAddr: 0x408C, symSize: 0x1B0 }
+  - { offset: 0x3CF3, size: 0x8, addend: 0x0, symName: __ZZN26_POPPropertyAnimationState15computeProgressEvE4func, symObjAddr: 0x3408, symBinAddr: 0x225C8, symSize: 0x0 }
+  - { offset: 0x42C7, size: 0x8, addend: 0x0, symName: __ZL22supportedVelocityTypes, symObjAddr: 0x2A28, symBinAddr: 0x16D00, symSize: 0x0 }
+  - { offset: 0x457A, size: 0x8, addend: 0x0, symName: '+[POPDecayAnimation animation]', symObjAddr: 0x0, symBinAddr: 0x2A4C, symSize: 0x18 }
+  - { offset: 0x45AF, size: 0x8, addend: 0x0, symName: '+[POPDecayAnimation animationWithPropertyNamed:]', symObjAddr: 0x18, symBinAddr: 0x2A64, symSize: 0xB8 }
+  - { offset: 0x4602, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation init]', symObjAddr: 0xD0, symBinAddr: 0x2B1C, symSize: 0x4 }
+  - { offset: 0x465E, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation _initState]', symObjAddr: 0xD4, symBinAddr: 0x2B20, symSize: 0x54 }
+  - { offset: 0x46C8, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateC2EP11objc_object, symObjAddr: 0x1014, symBinAddr: 0x3A60, symSize: 0x8C }
+  - { offset: 0x4701, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateC2EP11objc_object, symObjAddr: 0x1014, symBinAddr: 0x3A60, symSize: 0x8C }
+  - { offset: 0x4725, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateC2EP11objc_object, symObjAddr: 0x1014, symBinAddr: 0x3A60, symSize: 0x8C }
+  - { offset: 0x4749, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation deceleration]', symObjAddr: 0x128, symBinAddr: 0x2B74, symSize: 0x18 }
+  - { offset: 0x4829, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation setDeceleration:]', symObjAddr: 0x140, symBinAddr: 0x2B8C, symSize: 0x84 }
+  - { offset: 0x496E, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN3POP6VectorEEaSB8ne180100EOS3_, symObjAddr: 0x1C4, symBinAddr: 0x2C10, symSize: 0x5C }
+  - { offset: 0x4C33, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation toValue]', symObjAddr: 0x220, symBinAddr: 0x2C6C, symSize: 0xB8 }
+  - { offset: 0x4E7A, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation duration]', symObjAddr: 0x2D8, symBinAddr: 0x2D24, symSize: 0x34 }
+  - { offset: 0x4EAE, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation setFromValue:]', symObjAddr: 0x30C, symBinAddr: 0x2D58, symSize: 0x74 }
+  - { offset: 0x4EED, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation setToValue:]', symObjAddr: 0x380, symBinAddr: 0x2DCC, symSize: 0x28 }
+  - { offset: 0x4F45, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation reversedVelocity]', symObjAddr: 0x3A8, symBinAddr: 0x2DF4, symSize: 0x274 }
+  - { offset: 0x50DD, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation originalVelocity]', symObjAddr: 0x61C, symBinAddr: 0x3068, symSize: 0xB0 }
+  - { offset: 0x52B1, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation velocity]', symObjAddr: 0x6CC, symBinAddr: 0x3118, symSize: 0xB0 }
+  - { offset: 0x54CD, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation setVelocity:]', symObjAddr: 0x77C, symBinAddr: 0x31C8, symSize: 0x328 }
+  - { offset: 0x5D27, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN3POP6VectorEEaSB8ne180100ERKS3_, symObjAddr: 0xAA4, symBinAddr: 0x34F0, symSize: 0x68 }
+  - { offset: 0x5EEB, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN3POP6VectorEED2B8ne180100Ev, symObjAddr: 0x261C, symBinAddr: 0x5068, symSize: 0x50 }
+  - { offset: 0x5FF2, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation _ensureComputedProperties]', symObjAddr: 0xB0C, symBinAddr: 0x3558, symSize: 0x48 }
+  - { offset: 0x60A8, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationState15computeDurationEv, symObjAddr: 0xB54, symBinAddr: 0x35A0, symSize: 0x164 }
+  - { offset: 0x62F0, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationState14computeToValueEv, symObjAddr: 0xCB8, symBinAddr: 0x3704, symSize: 0x150 }
+  - { offset: 0x6769, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrIN3POP6VectorEEC2B8ne180100IS2_vEEPT_, symObjAddr: 0x20B8, symBinAddr: 0x4B04, symSize: 0x64 }
+  - { offset: 0x68AD, size: 0x8, addend: 0x0, symName: __ZL14decay_positionPdS_mdd, symObjAddr: 0x21E4, symBinAddr: 0x4C30, symSize: 0xAC }
+  - { offset: 0x6967, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation _invalidateComputedProperties]', symObjAddr: 0xE08, symBinAddr: 0x3854, symSize: 0x84 }
+  - { offset: 0x6A9D, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation _appendDescription:debug:]', symObjAddr: 0xE8C, symBinAddr: 0x38D8, symSize: 0xD8 }
+  - { offset: 0x6AEC, size: 0x8, addend: 0x0, symName: '-[POPDecayAnimation(NSCopying) copyWithZone:]', symObjAddr: 0xF64, symBinAddr: 0x39B0, symSize: 0xB0 }
+  - { offset: 0x6BA7, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateD1Ev, symObjAddr: 0x10A0, symBinAddr: 0x3AEC, symSize: 0x4 }
+  - { offset: 0x6BCA, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateD1Ev, symObjAddr: 0x10A0, symBinAddr: 0x3AEC, symSize: 0x4 }
+  - { offset: 0x6BE8, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateD1Ev, symObjAddr: 0x10A0, symBinAddr: 0x3AEC, symSize: 0x4 }
+  - { offset: 0x6BFB, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationStateD2Ev, symObjAddr: 0x1DE0, symBinAddr: 0x482C, symSize: 0x90 }
+  - { offset: 0x6DEB, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationStateD0Ev, symObjAddr: 0x10A4, symBinAddr: 0x3AF0, symSize: 0x14 }
+  - { offset: 0x6EB9, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState14handleDidStartEv, symObjAddr: 0x10B8, symBinAddr: 0x3B04, symSize: 0x10C }
+  - { offset: 0x7076, size: 0x8, addend: 0x0, symName: __ZN3POP13ActionEnablerC2Ev, symObjAddr: 0x1E80, symBinAddr: 0x48CC, symSize: 0x40 }
+  - { offset: 0x712C, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationState6isDoneEv, symObjAddr: 0x11C4, symBinAddr: 0x3C10, symSize: 0xE0 }
+  - { offset: 0x73B3, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState7willRunEbP11objc_object, symObjAddr: 0x12A4, symBinAddr: 0x3CF0, symSize: 0x340 }
+  - { offset: 0x7CC3, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState15readObjectValueEPNSt3__110shared_ptrIN3POP6VectorEEEP11objc_object, symObjAddr: 0x1EC0, symBinAddr: 0x490C, symSize: 0x1F8 }
+  - { offset: 0x8011, size: 0x8, addend: 0x0, symName: __ZN23_POPDecayAnimationState7advanceEddP11objc_object, symObjAddr: 0x15E4, symBinAddr: 0x4030, symSize: 0x5C }
+  - { offset: 0x8139, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState17clampCurrentValueEm, symObjAddr: 0x2290, symBinAddr: 0x4CDC, symSize: 0x8C }
+  - { offset: 0x8202, size: 0x8, addend: 0x0, symName: __ZNK22ComputeProgressFunctorIN3POP7Vector4IdEEEclERKS2_S5_S5_, symObjAddr: 0x231C, symBinAddr: 0x4D68, symSize: 0xB0 }
+  - { offset: 0x8280, size: 0x8, addend: 0x0, symName: __ZNK22ComputeProgressFunctorIN3POP7Vector4IdEEEclERKS2_S5_S5_, symObjAddr: 0x231C, symBinAddr: 0x4D68, symSize: 0xB0 }
+  - { offset: 0x834C, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState16delegateProgressEv, symObjAddr: 0x17F0, symBinAddr: 0x423C, symSize: 0x1DC }
+  - { offset: 0x85AF, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState21handleDidReachToValueEv, symObjAddr: 0x23CC, symBinAddr: 0x4E18, symSize: 0x1EC }
+  - { offset: 0x898F, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState13delegateApplyEv, symObjAddr: 0x19CC, symBinAddr: 0x4418, symSize: 0xF4 }
+  - { offset: 0x8B8F, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState5resetEb, symObjAddr: 0x1AC0, symBinAddr: 0x450C, symSize: 0x1A0 }
+  - { offset: 0x905D, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState24updatedDynamicsThresholdEv, symObjAddr: 0x1C60, symBinAddr: 0x46AC, symSize: 0x28 }
+  - { offset: 0x9083, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationStateD1Ev, symObjAddr: 0x1C88, symBinAddr: 0x46D4, symSize: 0x4 }
+  - { offset: 0x90A7, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationStateD1Ev, symObjAddr: 0x1C88, symBinAddr: 0x46D4, symSize: 0x4 }
+  - { offset: 0x90D3, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationStateD0Ev, symObjAddr: 0x1C8C, symBinAddr: 0x46D8, symSize: 0x14 }
+  - { offset: 0x912E, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState6isDoneEv, symObjAddr: 0x1CA0, symBinAddr: 0x46EC, symSize: 0x28 }
+  - { offset: 0x9153, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState6isDoneEv, symObjAddr: 0x1CA0, symBinAddr: 0x46EC, symSize: 0x28 }
+  - { offset: 0x9170, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState6isDoneEv, symObjAddr: 0x1CA0, symBinAddr: 0x46EC, symSize: 0x28 }
+  - { offset: 0x91AA, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState7advanceEddP11objc_object, symObjAddr: 0x1CC8, symBinAddr: 0x4714, symSize: 0x8 }
+  - { offset: 0x91FF, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationStateD1Ev, symObjAddr: 0x1CD0, symBinAddr: 0x471C, symSize: 0x4 }
+  - { offset: 0x9223, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationStateD1Ev, symObjAddr: 0x1CD0, symBinAddr: 0x471C, symSize: 0x4 }
+  - { offset: 0x9236, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationStateD2Ev, symObjAddr: 0x1D1C, symBinAddr: 0x4768, symSize: 0xC4 }
+  - { offset: 0x9279, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationStateD0Ev, symObjAddr: 0x1CD4, symBinAddr: 0x4720, symSize: 0x14 }
+  - { offset: 0x92D6, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState6isDoneEv, symObjAddr: 0x1CE8, symBinAddr: 0x4734, symSize: 0x20 }
+  - { offset: 0x92FC, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState6isDoneEv, symObjAddr: 0x1CE8, symBinAddr: 0x4734, symSize: 0x20 }
+  - { offset: 0x9318, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState7willRunEbP11objc_object, symObjAddr: 0x1D08, symBinAddr: 0x4754, symSize: 0x4 }
+  - { offset: 0x9360, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState15computeProgressEv, symObjAddr: 0x1D0C, symBinAddr: 0x4758, symSize: 0x4 }
+  - { offset: 0x9385, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState16delegateProgressEv, symObjAddr: 0x1D10, symBinAddr: 0x475C, symSize: 0x4 }
+  - { offset: 0x93AA, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState5resetEb, symObjAddr: 0x1D14, symBinAddr: 0x4760, symSize: 0x8 }
+  - { offset: 0x96AC, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev, symObjAddr: 0x211C, symBinAddr: 0x4B68, symSize: 0x4 }
+  - { offset: 0x96CF, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED1Ev, symObjAddr: 0x211C, symBinAddr: 0x4B68, symSize: 0x4 }
+  - { offset: 0x9705, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEED0Ev, symObjAddr: 0x2120, symBinAddr: 0x4B6C, symSize: 0x14 }
+  - { offset: 0x976A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE16__on_zero_sharedEv, symObjAddr: 0x2134, symBinAddr: 0x4B80, symSize: 0x24 }
+  - { offset: 0x97AE, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x2158, symBinAddr: 0x4BA4, symSize: 0x3C }
+  - { offset: 0x97F8, size: 0x8, addend: 0x0, symName: __ZNKSt9type_infoeqB8ne180100ERKS_, symObjAddr: 0x2198, symBinAddr: 0x4BE4, symSize: 0x4C }
+  - { offset: 0x98F4, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2194, symBinAddr: 0x4BE0, symSize: 0x4 }
+  - { offset: 0x9927, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2194, symBinAddr: 0x4BE0, symSize: 0x4 }
+  - { offset: 0x994A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2194, symBinAddr: 0x4BE0, symSize: 0x4 }
+  - { offset: 0x9979, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2194, symBinAddr: 0x4BE0, symSize: 0x4 }
+  - { offset: 0x99A2, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIPN3POP6VectorENS_10shared_ptrIS2_E27__shared_ptr_default_deleteIS2_S2_EENS_9allocatorIS2_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2194, symBinAddr: 0x4BE0, symSize: 0x4 }
+  - { offset: 0x9AF4, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState12currentValueEv, symObjAddr: 0x25B8, symBinAddr: 0x5004, symSize: 0x64 }
+  - { offset: 0xBE8C, size: 0x8, addend: 0x0, symName: _kPOPLayerBackgroundColor, symObjAddr: 0x2A70, symBinAddr: 0x1C2B8, symSize: 0x0 }
+  - { offset: 0xBEDC, size: 0x8, addend: 0x0, symName: _kPOPLayerBounds, symObjAddr: 0x2A78, symBinAddr: 0x1C2C0, symSize: 0x0 }
+  - { offset: 0xBEF1, size: 0x8, addend: 0x0, symName: _kPOPLayerCornerRadius, symObjAddr: 0x2A80, symBinAddr: 0x1C2C8, symSize: 0x0 }
+  - { offset: 0xBF06, size: 0x8, addend: 0x0, symName: _kPOPLayerBorderWidth, symObjAddr: 0x2A88, symBinAddr: 0x1C2D0, symSize: 0x0 }
+  - { offset: 0xBF1B, size: 0x8, addend: 0x0, symName: _kPOPLayerBorderColor, symObjAddr: 0x2A90, symBinAddr: 0x1C2D8, symSize: 0x0 }
+  - { offset: 0xBF30, size: 0x8, addend: 0x0, symName: _kPOPLayerOpacity, symObjAddr: 0x2A98, symBinAddr: 0x1C2E0, symSize: 0x0 }
+  - { offset: 0xBF45, size: 0x8, addend: 0x0, symName: _kPOPLayerPosition, symObjAddr: 0x2AA0, symBinAddr: 0x1C2E8, symSize: 0x0 }
+  - { offset: 0xBF5A, size: 0x8, addend: 0x0, symName: _kPOPLayerPositionX, symObjAddr: 0x2AA8, symBinAddr: 0x1C2F0, symSize: 0x0 }
+  - { offset: 0xBF6F, size: 0x8, addend: 0x0, symName: _kPOPLayerPositionY, symObjAddr: 0x2AB0, symBinAddr: 0x1C2F8, symSize: 0x0 }
+  - { offset: 0xBF84, size: 0x8, addend: 0x0, symName: _kPOPLayerRotation, symObjAddr: 0x2AB8, symBinAddr: 0x1C300, symSize: 0x0 }
+  - { offset: 0xBF99, size: 0x8, addend: 0x0, symName: _kPOPLayerRotationX, symObjAddr: 0x2AC0, symBinAddr: 0x1C308, symSize: 0x0 }
+  - { offset: 0xBFAE, size: 0x8, addend: 0x0, symName: _kPOPLayerRotationY, symObjAddr: 0x2AC8, symBinAddr: 0x1C310, symSize: 0x0 }
+  - { offset: 0xBFC3, size: 0x8, addend: 0x0, symName: _kPOPLayerScaleX, symObjAddr: 0x2AD0, symBinAddr: 0x1C318, symSize: 0x0 }
+  - { offset: 0xBFD8, size: 0x8, addend: 0x0, symName: _kPOPLayerScaleXY, symObjAddr: 0x2AD8, symBinAddr: 0x1C320, symSize: 0x0 }
+  - { offset: 0xBFED, size: 0x8, addend: 0x0, symName: _kPOPLayerScaleY, symObjAddr: 0x2AE0, symBinAddr: 0x1C328, symSize: 0x0 }
+  - { offset: 0xC002, size: 0x8, addend: 0x0, symName: _kPOPLayerSize, symObjAddr: 0x2AE8, symBinAddr: 0x1C330, symSize: 0x0 }
+  - { offset: 0xC017, size: 0x8, addend: 0x0, symName: _kPOPLayerSubscaleXY, symObjAddr: 0x2AF0, symBinAddr: 0x1C338, symSize: 0x0 }
+  - { offset: 0xC02C, size: 0x8, addend: 0x0, symName: _kPOPLayerSubtranslationX, symObjAddr: 0x2AF8, symBinAddr: 0x1C340, symSize: 0x0 }
+  - { offset: 0xC041, size: 0x8, addend: 0x0, symName: _kPOPLayerSubtranslationXY, symObjAddr: 0x2B00, symBinAddr: 0x1C348, symSize: 0x0 }
+  - { offset: 0xC056, size: 0x8, addend: 0x0, symName: _kPOPLayerSubtranslationY, symObjAddr: 0x2B08, symBinAddr: 0x1C350, symSize: 0x0 }
+  - { offset: 0xC06B, size: 0x8, addend: 0x0, symName: _kPOPLayerSubtranslationZ, symObjAddr: 0x2B10, symBinAddr: 0x1C358, symSize: 0x0 }
+  - { offset: 0xC080, size: 0x8, addend: 0x0, symName: _kPOPLayerTranslationX, symObjAddr: 0x2B18, symBinAddr: 0x1C360, symSize: 0x0 }
+  - { offset: 0xC095, size: 0x8, addend: 0x0, symName: _kPOPLayerTranslationXY, symObjAddr: 0x2B20, symBinAddr: 0x1C368, symSize: 0x0 }
+  - { offset: 0xC0AA, size: 0x8, addend: 0x0, symName: _kPOPLayerTranslationY, symObjAddr: 0x2B28, symBinAddr: 0x1C370, symSize: 0x0 }
+  - { offset: 0xC0BF, size: 0x8, addend: 0x0, symName: _kPOPLayerTranslationZ, symObjAddr: 0x2B30, symBinAddr: 0x1C378, symSize: 0x0 }
+  - { offset: 0xC0D4, size: 0x8, addend: 0x0, symName: _kPOPLayerZPosition, symObjAddr: 0x2B38, symBinAddr: 0x1C380, symSize: 0x0 }
+  - { offset: 0xC0E9, size: 0x8, addend: 0x0, symName: _kPOPLayerShadowColor, symObjAddr: 0x2B40, symBinAddr: 0x1C388, symSize: 0x0 }
+  - { offset: 0xC0FE, size: 0x8, addend: 0x0, symName: _kPOPLayerShadowOffset, symObjAddr: 0x2B48, symBinAddr: 0x1C390, symSize: 0x0 }
+  - { offset: 0xC113, size: 0x8, addend: 0x0, symName: _kPOPLayerShadowOpacity, symObjAddr: 0x2B50, symBinAddr: 0x1C398, symSize: 0x0 }
+  - { offset: 0xC128, size: 0x8, addend: 0x0, symName: _kPOPLayerShadowRadius, symObjAddr: 0x2B58, symBinAddr: 0x1C3A0, symSize: 0x0 }
+  - { offset: 0xC13D, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerStrokeStart, symObjAddr: 0x2B60, symBinAddr: 0x1C3A8, symSize: 0x0 }
+  - { offset: 0xC152, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerStrokeEnd, symObjAddr: 0x2B68, symBinAddr: 0x1C3B0, symSize: 0x0 }
+  - { offset: 0xC167, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerStrokeColor, symObjAddr: 0x2B70, symBinAddr: 0x1C3B8, symSize: 0x0 }
+  - { offset: 0xC17C, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerFillColor, symObjAddr: 0x2B78, symBinAddr: 0x1C3C0, symSize: 0x0 }
+  - { offset: 0xC191, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerLineWidth, symObjAddr: 0x2B80, symBinAddr: 0x1C3C8, symSize: 0x0 }
+  - { offset: 0xC1A6, size: 0x8, addend: 0x0, symName: _kPOPShapeLayerLineDashPhase, symObjAddr: 0x2B88, symBinAddr: 0x1C3D0, symSize: 0x0 }
+  - { offset: 0xC1BB, size: 0x8, addend: 0x0, symName: _kPOPLayoutConstraintConstant, symObjAddr: 0x2B90, symBinAddr: 0x1C3D8, symSize: 0x0 }
+  - { offset: 0xC1D0, size: 0x8, addend: 0x0, symName: _kPOPViewAlpha, symObjAddr: 0x2B98, symBinAddr: 0x1C3E0, symSize: 0x0 }
+  - { offset: 0xC1E5, size: 0x8, addend: 0x0, symName: _kPOPViewBackgroundColor, symObjAddr: 0x2BA0, symBinAddr: 0x1C3E8, symSize: 0x0 }
+  - { offset: 0xC1FA, size: 0x8, addend: 0x0, symName: _kPOPViewBounds, symObjAddr: 0x2BA8, symBinAddr: 0x1C3F0, symSize: 0x0 }
+  - { offset: 0xC20F, size: 0x8, addend: 0x0, symName: _kPOPViewCenter, symObjAddr: 0x2BB0, symBinAddr: 0x1C3F8, symSize: 0x0 }
+  - { offset: 0xC224, size: 0x8, addend: 0x0, symName: _kPOPViewFrame, symObjAddr: 0x2BB8, symBinAddr: 0x1C400, symSize: 0x0 }
+  - { offset: 0xC239, size: 0x8, addend: 0x0, symName: _kPOPViewScaleX, symObjAddr: 0x2BC0, symBinAddr: 0x1C408, symSize: 0x0 }
+  - { offset: 0xC24E, size: 0x8, addend: 0x0, symName: _kPOPViewScaleXY, symObjAddr: 0x2BC8, symBinAddr: 0x1C410, symSize: 0x0 }
+  - { offset: 0xC263, size: 0x8, addend: 0x0, symName: _kPOPViewScaleY, symObjAddr: 0x2BD0, symBinAddr: 0x1C418, symSize: 0x0 }
+  - { offset: 0xC278, size: 0x8, addend: 0x0, symName: _kPOPViewSize, symObjAddr: 0x2BD8, symBinAddr: 0x1C420, symSize: 0x0 }
+  - { offset: 0xC28D, size: 0x8, addend: 0x0, symName: _kPOPViewTintColor, symObjAddr: 0x2BE0, symBinAddr: 0x1C428, symSize: 0x0 }
+  - { offset: 0xC2A2, size: 0x8, addend: 0x0, symName: _kPOPScrollViewContentOffset, symObjAddr: 0x2BE8, symBinAddr: 0x1C430, symSize: 0x0 }
+  - { offset: 0xC2B7, size: 0x8, addend: 0x0, symName: _kPOPScrollViewContentSize, symObjAddr: 0x2BF0, symBinAddr: 0x1C438, symSize: 0x0 }
+  - { offset: 0xC2CC, size: 0x8, addend: 0x0, symName: _kPOPScrollViewZoomScale, symObjAddr: 0x2BF8, symBinAddr: 0x1C440, symSize: 0x0 }
+  - { offset: 0xC2E1, size: 0x8, addend: 0x0, symName: _kPOPScrollViewContentInset, symObjAddr: 0x2C00, symBinAddr: 0x1C448, symSize: 0x0 }
+  - { offset: 0xC2F6, size: 0x8, addend: 0x0, symName: _kPOPScrollViewScrollIndicatorInsets, symObjAddr: 0x2C08, symBinAddr: 0x1C450, symSize: 0x0 }
+  - { offset: 0xC30B, size: 0x8, addend: 0x0, symName: _kPOPTableViewContentOffset, symObjAddr: 0x2C10, symBinAddr: 0x1C458, symSize: 0x0 }
+  - { offset: 0xC320, size: 0x8, addend: 0x0, symName: _kPOPTableViewContentSize, symObjAddr: 0x2C18, symBinAddr: 0x1C460, symSize: 0x0 }
+  - { offset: 0xC335, size: 0x8, addend: 0x0, symName: _kPOPCollectionViewContentOffset, symObjAddr: 0x2C20, symBinAddr: 0x1C468, symSize: 0x0 }
+  - { offset: 0xC34A, size: 0x8, addend: 0x0, symName: _kPOPCollectionViewContentSize, symObjAddr: 0x2C28, symBinAddr: 0x1C470, symSize: 0x0 }
+  - { offset: 0xC35F, size: 0x8, addend: 0x0, symName: _kPOPNavigationBarBarTintColor, symObjAddr: 0x2C30, symBinAddr: 0x1C478, symSize: 0x0 }
+  - { offset: 0xC374, size: 0x8, addend: 0x0, symName: _kPOPToolbarBarTintColor, symObjAddr: 0x2C38, symBinAddr: 0x1C480, symSize: 0x0 }
+  - { offset: 0xC389, size: 0x8, addend: 0x0, symName: _kPOPTabBarBarTintColor, symObjAddr: 0x2C40, symBinAddr: 0x1C488, symSize: 0x0 }
+  - { offset: 0xC39E, size: 0x8, addend: 0x0, symName: _kPOPLabelTextColor, symObjAddr: 0x2C48, symBinAddr: 0x1C490, symSize: 0x0 }
+  - { offset: 0xC3B4, size: 0x8, addend: 0x0, symName: __ZL13_staticStates, symObjAddr: 0x3B30, symBinAddr: 0x225D0, symSize: 0x0 }
+  - { offset: 0xC4A8, size: 0x8, addend: 0x0, symName: __ZL11placeholder, symObjAddr: 0x27638, symBinAddr: 0x22D10, symSize: 0x0 }
+  - { offset: 0xC4BB, size: 0x8, addend: 0x0, symName: '+[POPAnimatableProperty propertyWithName:initializer:]', symObjAddr: 0x192C, symBinAddr: 0x69E4, symSize: 0x1BC }
+  - { offset: 0xC4E7, size: 0x8, addend: 0x0, symName: '__ZZ54+[POPAnimatableProperty propertyWithName:initializer:]E13_propertyDict', symObjAddr: 0x27640, symBinAddr: 0x22D18, symSize: 0x0 }
+  - { offset: 0xD4D3, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke, symObjAddr: 0x0, symBinAddr: 0x50B8, symSize: 0x4C }
+  - { offset: 0xD53E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_2, symObjAddr: 0x4C, symBinAddr: 0x5104, symSize: 0x60 }
+  - { offset: 0xD60C, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_3, symObjAddr: 0xAC, symBinAddr: 0x5164, symSize: 0x2C }
+  - { offset: 0xD695, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_4, symObjAddr: 0xD8, symBinAddr: 0x5190, symSize: 0x10 }
+  - { offset: 0xD6F6, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_5, symObjAddr: 0xE8, symBinAddr: 0x51A0, symSize: 0x28 }
+  - { offset: 0xD73B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_6, symObjAddr: 0x110, symBinAddr: 0x51C8, symSize: 0xC }
+  - { offset: 0xD77F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_7, symObjAddr: 0x11C, symBinAddr: 0x51D4, symSize: 0x28 }
+  - { offset: 0xD7C4, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_8, symObjAddr: 0x144, symBinAddr: 0x51FC, symSize: 0xC }
+  - { offset: 0xD808, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_9, symObjAddr: 0x150, symBinAddr: 0x5208, symSize: 0x4C }
+  - { offset: 0xD861, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_10, symObjAddr: 0x19C, symBinAddr: 0x5254, symSize: 0x60 }
+  - { offset: 0xD910, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_11, symObjAddr: 0x1FC, symBinAddr: 0x52B4, symSize: 0x28 }
+  - { offset: 0xD999, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_12, symObjAddr: 0x224, symBinAddr: 0x52DC, symSize: 0xC }
+  - { offset: 0xD9FA, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_13, symObjAddr: 0x230, symBinAddr: 0x52E8, symSize: 0x28 }
+  - { offset: 0xDA3F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_14, symObjAddr: 0x258, symBinAddr: 0x5310, symSize: 0x50 }
+  - { offset: 0xDAA2, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_15, symObjAddr: 0x2A8, symBinAddr: 0x5360, symSize: 0x28 }
+  - { offset: 0xDAED, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_16, symObjAddr: 0x2D0, symBinAddr: 0x5388, symSize: 0x50 }
+  - { offset: 0xDB58, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_17, symObjAddr: 0x320, symBinAddr: 0x53D8, symSize: 0x2C }
+  - { offset: 0xDBA3, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_18, symObjAddr: 0x34C, symBinAddr: 0x5404, symSize: 0x10 }
+  - { offset: 0xDBEC, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_19, symObjAddr: 0x35C, symBinAddr: 0x5414, symSize: 0x28 }
+  - { offset: 0xDC5E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_20, symObjAddr: 0x384, symBinAddr: 0x543C, symSize: 0xC }
+  - { offset: 0xDCCF, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_21, symObjAddr: 0x390, symBinAddr: 0x5448, symSize: 0x28 }
+  - { offset: 0xDD41, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_22, symObjAddr: 0x3B8, symBinAddr: 0x5470, symSize: 0xC }
+  - { offset: 0xDDB2, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_23, symObjAddr: 0x3C4, symBinAddr: 0x547C, symSize: 0x28 }
+  - { offset: 0xDE4D, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_24, symObjAddr: 0x3EC, symBinAddr: 0x54A4, symSize: 0xC }
+  - { offset: 0xDEDD, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_25, symObjAddr: 0x3F8, symBinAddr: 0x54B0, symSize: 0x28 }
+  - { offset: 0xDF78, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_26, symObjAddr: 0x420, symBinAddr: 0x54D8, symSize: 0xC }
+  - { offset: 0xE008, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_27, symObjAddr: 0x42C, symBinAddr: 0x54E4, symSize: 0x28 }
+  - { offset: 0xE07A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_28, symObjAddr: 0x454, symBinAddr: 0x550C, symSize: 0xC }
+  - { offset: 0xE0EB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_29, symObjAddr: 0x460, symBinAddr: 0x5518, symSize: 0x28 }
+  - { offset: 0xE15D, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_30, symObjAddr: 0x488, symBinAddr: 0x5540, symSize: 0xC }
+  - { offset: 0xE1CE, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_31, symObjAddr: 0x494, symBinAddr: 0x554C, symSize: 0x28 }
+  - { offset: 0xE240, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_32, symObjAddr: 0x4BC, symBinAddr: 0x5574, symSize: 0xC }
+  - { offset: 0xE2B1, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_33, symObjAddr: 0x4C8, symBinAddr: 0x5580, symSize: 0x28 }
+  - { offset: 0xE34C, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_34, symObjAddr: 0x4F0, symBinAddr: 0x55A8, symSize: 0xC }
+  - { offset: 0xE3DC, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_35, symObjAddr: 0x4FC, symBinAddr: 0x55B4, symSize: 0x28 }
+  - { offset: 0xE44E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_36, symObjAddr: 0x524, symBinAddr: 0x55DC, symSize: 0xC }
+  - { offset: 0xE4BF, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_37, symObjAddr: 0x530, symBinAddr: 0x55E8, symSize: 0x28 }
+  - { offset: 0xE531, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_38, symObjAddr: 0x558, symBinAddr: 0x5610, symSize: 0xC }
+  - { offset: 0xE5A2, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_39, symObjAddr: 0x564, symBinAddr: 0x561C, symSize: 0x28 }
+  - { offset: 0xE614, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_40, symObjAddr: 0x58C, symBinAddr: 0x5644, symSize: 0xC }
+  - { offset: 0xE685, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_41, symObjAddr: 0x598, symBinAddr: 0x5650, symSize: 0x28 }
+  - { offset: 0xE720, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_42, symObjAddr: 0x5C0, symBinAddr: 0x5678, symSize: 0xC }
+  - { offset: 0xE7B0, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_43, symObjAddr: 0x5CC, symBinAddr: 0x5684, symSize: 0x28 }
+  - { offset: 0xE7FB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_44, symObjAddr: 0x5F4, symBinAddr: 0x56AC, symSize: 0xC }
+  - { offset: 0xE868, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_45, symObjAddr: 0x600, symBinAddr: 0x56B8, symSize: 0x28 }
+  - { offset: 0xE8F9, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_46, symObjAddr: 0x628, symBinAddr: 0x56E0, symSize: 0x78 }
+  - { offset: 0xE994, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_47, symObjAddr: 0x6A0, symBinAddr: 0x5758, symSize: 0x28 }
+  - { offset: 0xEA06, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_48, symObjAddr: 0x6C8, symBinAddr: 0x5780, symSize: 0xC }
+  - { offset: 0xEA77, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_49, symObjAddr: 0x6D4, symBinAddr: 0x578C, symSize: 0x28 }
+  - { offset: 0xEAE9, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_50, symObjAddr: 0x6FC, symBinAddr: 0x57B4, symSize: 0xC }
+  - { offset: 0xEB5A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_51, symObjAddr: 0x708, symBinAddr: 0x57C0, symSize: 0x28 }
+  - { offset: 0xEBCC, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_52, symObjAddr: 0x730, symBinAddr: 0x57E8, symSize: 0xC }
+  - { offset: 0xEC3D, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_53, symObjAddr: 0x73C, symBinAddr: 0x57F4, symSize: 0x4C }
+  - { offset: 0xEC9C, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_54, symObjAddr: 0x788, symBinAddr: 0x5840, symSize: 0x60 }
+  - { offset: 0xED2F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_55, symObjAddr: 0x7E8, symBinAddr: 0x58A0, symSize: 0x28 }
+  - { offset: 0xEDA3, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_56, symObjAddr: 0x810, symBinAddr: 0x58C8, symSize: 0xC }
+  - { offset: 0xEE2B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_57, symObjAddr: 0x81C, symBinAddr: 0x58D4, symSize: 0x2C }
+  - { offset: 0xEE76, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_58, symObjAddr: 0x848, symBinAddr: 0x5900, symSize: 0x10 }
+  - { offset: 0xEEBF, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_59, symObjAddr: 0x858, symBinAddr: 0x5910, symSize: 0x28 }
+  - { offset: 0xEF0A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_60, symObjAddr: 0x880, symBinAddr: 0x5938, symSize: 0xC }
+  - { offset: 0xEF53, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_61, symObjAddr: 0x88C, symBinAddr: 0x5944, symSize: 0x28 }
+  - { offset: 0xEF9E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_62, symObjAddr: 0x8B4, symBinAddr: 0x596C, symSize: 0xC }
+  - { offset: 0xEFE7, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_63, symObjAddr: 0x8C0, symBinAddr: 0x5978, symSize: 0x28 }
+  - { offset: 0xF032, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_64, symObjAddr: 0x8E8, symBinAddr: 0x59A0, symSize: 0xC }
+  - { offset: 0xF07B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_65, symObjAddr: 0x8F4, symBinAddr: 0x59AC, symSize: 0x4C }
+  - { offset: 0xF0DA, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_66, symObjAddr: 0x940, symBinAddr: 0x59F8, symSize: 0x60 }
+  - { offset: 0xF16D, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_67, symObjAddr: 0x9A0, symBinAddr: 0x5A58, symSize: 0x4C }
+  - { offset: 0xF1CC, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_68, symObjAddr: 0x9EC, symBinAddr: 0x5AA4, symSize: 0x60 }
+  - { offset: 0xF25F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_69, symObjAddr: 0xA4C, symBinAddr: 0x5B04, symSize: 0x28 }
+  - { offset: 0xF2AA, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_70, symObjAddr: 0xA74, symBinAddr: 0x5B2C, symSize: 0xC }
+  - { offset: 0xF2F3, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_71, symObjAddr: 0xA80, symBinAddr: 0x5B38, symSize: 0x28 }
+  - { offset: 0xF33E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_72, symObjAddr: 0xAA8, symBinAddr: 0x5B60, symSize: 0xC }
+  - { offset: 0xF387, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_73, symObjAddr: 0xAB4, symBinAddr: 0x5B6C, symSize: 0x28 }
+  - { offset: 0xF3D2, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_74, symObjAddr: 0xADC, symBinAddr: 0x5B94, symSize: 0xC }
+  - { offset: 0xF41B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_75, symObjAddr: 0xAE8, symBinAddr: 0x5BA0, symSize: 0x28 }
+  - { offset: 0xF466, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_76, symObjAddr: 0xB10, symBinAddr: 0x5BC8, symSize: 0xC }
+  - { offset: 0xF4AF, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_77, symObjAddr: 0xB1C, symBinAddr: 0x5BD4, symSize: 0x50 }
+  - { offset: 0xF74A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_78, symObjAddr: 0xB6C, symBinAddr: 0x5C24, symSize: 0x78 }
+  - { offset: 0xF7BB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_79, symObjAddr: 0xBE4, symBinAddr: 0x5C9C, symSize: 0x28 }
+  - { offset: 0xF82F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_80, symObjAddr: 0xC0C, symBinAddr: 0x5CC4, symSize: 0xC }
+  - { offset: 0xF897, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_81, symObjAddr: 0xC18, symBinAddr: 0x5CD0, symSize: 0x2C }
+  - { offset: 0xF90B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_82, symObjAddr: 0xC44, symBinAddr: 0x5CFC, symSize: 0x10 }
+  - { offset: 0xF973, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_83, symObjAddr: 0xC54, symBinAddr: 0x5D0C, symSize: 0x50 }
+  - { offset: 0xF9CB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_84, symObjAddr: 0xCA4, symBinAddr: 0x5D5C, symSize: 0x50 }
+  - { offset: 0xFA23, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_85, symObjAddr: 0xCF4, symBinAddr: 0x5DAC, symSize: 0x50 }
+  - { offset: 0xFA7B, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_86, symObjAddr: 0xD44, symBinAddr: 0x5DFC, symSize: 0x50 }
+  - { offset: 0xFAD3, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_87, symObjAddr: 0xD94, symBinAddr: 0x5E4C, symSize: 0x50 }
+  - { offset: 0xFB54, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_88, symObjAddr: 0xDE4, symBinAddr: 0x5E9C, symSize: 0x50 }
+  - { offset: 0xFBCB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_89, symObjAddr: 0xE34, symBinAddr: 0x5EEC, symSize: 0x50 }
+  - { offset: 0xFC2A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_90, symObjAddr: 0xE84, symBinAddr: 0x5F3C, symSize: 0x78 }
+  - { offset: 0xFC89, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_91, symObjAddr: 0xEFC, symBinAddr: 0x5FB4, symSize: 0x28 }
+  - { offset: 0xFCFD, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_92, symObjAddr: 0xF24, symBinAddr: 0x5FDC, symSize: 0x10 }
+  - { offset: 0xFD67, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_93, symObjAddr: 0xF34, symBinAddr: 0x5FEC, symSize: 0x28 }
+  - { offset: 0xFDDB, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_94, symObjAddr: 0xF5C, symBinAddr: 0x6014, symSize: 0xC }
+  - { offset: 0xFE43, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_95, symObjAddr: 0xF68, symBinAddr: 0x6020, symSize: 0x28 }
+  - { offset: 0xFE8E, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_96, symObjAddr: 0xF90, symBinAddr: 0x6048, symSize: 0xC }
+  - { offset: 0xFED7, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_97, symObjAddr: 0xF9C, symBinAddr: 0x6054, symSize: 0x78 }
+  - { offset: 0xFF3F, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_98, symObjAddr: 0x1014, symBinAddr: 0x60CC, symSize: 0x10 }
+  - { offset: 0xFFA7, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_99, symObjAddr: 0x1024, symBinAddr: 0x60DC, symSize: 0x78 }
+  - { offset: 0xFFF2, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_100, symObjAddr: 0x109C, symBinAddr: 0x6154, symSize: 0x10 }
+  - { offset: 0x1005A, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_101, symObjAddr: 0x10AC, symBinAddr: 0x6164, symSize: 0x50 }
+  - { offset: 0x100B9, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_102, symObjAddr: 0x10FC, symBinAddr: 0x61B4, symSize: 0x78 }
+  - { offset: 0x10118, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_103, symObjAddr: 0x1174, symBinAddr: 0x622C, symSize: 0x50 }
+  - { offset: 0x10177, size: 0x8, addend: 0x0, symName: __ZL13_staticStates_block_invoke_104, symObjAddr: 0x11C4, symBinAddr: 0x627C, symSize: 0x78 }
+  - { offset: 0x101DB, size: 0x8, addend: 0x0, symName: '-[POPStaticAnimatableProperty name]', symObjAddr: 0x123C, symBinAddr: 0x62F4, symSize: 0x14 }
+  - { offset: 0x10211, size: 0x8, addend: 0x0, symName: '-[POPStaticAnimatableProperty readBlock]', symObjAddr: 0x1250, symBinAddr: 0x6308, symSize: 0x24 }
+  - { offset: 0x10247, size: 0x8, addend: 0x0, symName: '-[POPStaticAnimatableProperty writeBlock]', symObjAddr: 0x1274, symBinAddr: 0x632C, symSize: 0x24 }
+  - { offset: 0x1027D, size: 0x8, addend: 0x0, symName: '-[POPStaticAnimatableProperty threshold]', symObjAddr: 0x1298, symBinAddr: 0x6350, symSize: 0x14 }
+  - { offset: 0x102B2, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty initWithName:readBlock:writeBlock:threshold:]', symObjAddr: 0x12AC, symBinAddr: 0x6364, symSize: 0x154 }
+  - { offset: 0x1032C, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty name]', symObjAddr: 0x1400, symBinAddr: 0x64B8, symSize: 0x10 }
+  - { offset: 0x10362, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty readBlock]', symObjAddr: 0x1410, symBinAddr: 0x64C8, symSize: 0x10 }
+  - { offset: 0x10398, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty writeBlock]', symObjAddr: 0x1420, symBinAddr: 0x64D8, symSize: 0x10 }
+  - { offset: 0x103CE, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty threshold]', symObjAddr: 0x1430, symBinAddr: 0x64E8, symSize: 0x10 }
+  - { offset: 0x10403, size: 0x8, addend: 0x0, symName: '-[POPConcreteAnimatableProperty .cxx_destruct]', symObjAddr: 0x1440, symBinAddr: 0x64F8, symSize: 0x54 }
+  - { offset: 0x10435, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty name]', symObjAddr: 0x1494, symBinAddr: 0x654C, symSize: 0x10 }
+  - { offset: 0x1046B, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty setName:]', symObjAddr: 0x14A4, symBinAddr: 0x655C, symSize: 0xC }
+  - { offset: 0x104AB, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty readBlock]', symObjAddr: 0x14B0, symBinAddr: 0x6568, symSize: 0x10 }
+  - { offset: 0x104E1, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty setReadBlock:]', symObjAddr: 0x14C0, symBinAddr: 0x6578, symSize: 0xC }
+  - { offset: 0x10521, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty writeBlock]', symObjAddr: 0x14CC, symBinAddr: 0x6584, symSize: 0x10 }
+  - { offset: 0x10557, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty setWriteBlock:]', symObjAddr: 0x14DC, symBinAddr: 0x6594, symSize: 0xC }
+  - { offset: 0x10597, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty threshold]', symObjAddr: 0x14E8, symBinAddr: 0x65A0, symSize: 0x10 }
+  - { offset: 0x105CC, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty setThreshold:]', symObjAddr: 0x14F8, symBinAddr: 0x65B0, symSize: 0x10 }
+  - { offset: 0x1060A, size: 0x8, addend: 0x0, symName: '-[POPMutableAnimatableProperty .cxx_destruct]', symObjAddr: 0x1508, symBinAddr: 0x65C0, symSize: 0x54 }
+  - { offset: 0x1063C, size: 0x8, addend: 0x0, symName: '-[POPPlaceholderAnimatableProperty name]', symObjAddr: 0x155C, symBinAddr: 0x6614, symSize: 0x10 }
+  - { offset: 0x10672, size: 0x8, addend: 0x0, symName: '-[POPPlaceholderAnimatableProperty readBlock]', symObjAddr: 0x156C, symBinAddr: 0x6624, symSize: 0x10 }
+  - { offset: 0x106A8, size: 0x8, addend: 0x0, symName: '-[POPPlaceholderAnimatableProperty writeBlock]', symObjAddr: 0x157C, symBinAddr: 0x6634, symSize: 0x10 }
+  - { offset: 0x106DE, size: 0x8, addend: 0x0, symName: '-[POPPlaceholderAnimatableProperty threshold]', symObjAddr: 0x158C, symBinAddr: 0x6644, symSize: 0x10 }
+  - { offset: 0x10713, size: 0x8, addend: 0x0, symName: '-[POPPlaceholderAnimatableProperty .cxx_destruct]', symObjAddr: 0x159C, symBinAddr: 0x6654, symSize: 0x54 }
+  - { offset: 0x10745, size: 0x8, addend: 0x0, symName: '+[POPAnimatableProperty initialize]', symObjAddr: 0x15F0, symBinAddr: 0x66A8, symSize: 0x58 }
+  - { offset: 0x10777, size: 0x8, addend: 0x0, symName: '+[POPAnimatableProperty allocWithZone:]', symObjAddr: 0x1648, symBinAddr: 0x6700, symSize: 0xB8 }
+  - { offset: 0x107BE, size: 0x8, addend: 0x0, symName: '-[POPAnimatableProperty copyWithZone:]', symObjAddr: 0x1700, symBinAddr: 0x67B8, symSize: 0x11C }
+  - { offset: 0x10818, size: 0x8, addend: 0x0, symName: '-[POPAnimatableProperty mutableCopyWithZone:]', symObjAddr: 0x181C, symBinAddr: 0x68D4, symSize: 0xF0 }
+  - { offset: 0x1086B, size: 0x8, addend: 0x0, symName: '+[POPAnimatableProperty propertyWithName:]', symObjAddr: 0x190C, symBinAddr: 0x69C4, symSize: 0x20 }
+  - { offset: 0x108DE, size: 0x8, addend: 0x0, symName: '-[POPAnimatableProperty description]', symObjAddr: 0x1AE8, symBinAddr: 0x6BA0, symSize: 0xD4 }
+  - { offset: 0x18064, size: 0x8, addend: 0x0, symName: '-[POPAnimation init]', symObjAddr: 0x0, symBinAddr: 0x6D00, symSize: 0x8C }
+  - { offset: 0x186F5, size: 0x8, addend: 0x0, symName: '-[POPAnimation init]', symObjAddr: 0x0, symBinAddr: 0x6D00, symSize: 0x8C }
+  - { offset: 0x1874A, size: 0x8, addend: 0x0, symName: '-[POPAnimation _init]', symObjAddr: 0x8C, symBinAddr: 0x6D8C, symSize: 0x6C }
+  - { offset: 0x187C6, size: 0x8, addend: 0x0, symName: '-[POPAnimation _initState]', symObjAddr: 0xF8, symBinAddr: 0x6DF8, symSize: 0x6C }
+  - { offset: 0x18842, size: 0x8, addend: 0x0, symName: '-[POPAnimation dealloc]', symObjAddr: 0x164, symBinAddr: 0x6E64, symSize: 0x58 }
+  - { offset: 0x1887F, size: 0x8, addend: 0x0, symName: '-[POPAnimation delegate]', symObjAddr: 0x1BC, symBinAddr: 0x6EBC, symSize: 0x1C }
+  - { offset: 0x188B4, size: 0x8, addend: 0x0, symName: '-[POPAnimation setDelegate:]', symObjAddr: 0x1D8, symBinAddr: 0x6ED8, symSize: 0xC }
+  - { offset: 0x18909, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState11setDelegateEP11objc_object, symObjAddr: 0x1E4, symBinAddr: 0x6EE4, symSize: 0x14C }
+  - { offset: 0x18940, size: 0x8, addend: 0x0, symName: '-[POPAnimation isPaused]', symObjAddr: 0x330, symBinAddr: 0x7030, symSize: 0x10 }
+  - { offset: 0x18996, size: 0x8, addend: 0x0, symName: '-[POPAnimation setPaused:]', symObjAddr: 0x340, symBinAddr: 0x7040, symSize: 0x48 }
+  - { offset: 0x18A0A, size: 0x8, addend: 0x0, symName: '-[POPAnimation repeatCount]', symObjAddr: 0x388, symBinAddr: 0x7088, symSize: 0x24 }
+  - { offset: 0x18A3F, size: 0x8, addend: 0x0, symName: '-[POPAnimation setRepeatCount:]', symObjAddr: 0x3AC, symBinAddr: 0x70AC, symSize: 0x2C }
+  - { offset: 0x18A7E, size: 0x8, addend: 0x0, symName: '-[POPAnimation autoreverses]', symObjAddr: 0x3D8, symBinAddr: 0x70D8, symSize: 0x10 }
+  - { offset: 0x18AB3, size: 0x8, addend: 0x0, symName: '-[POPAnimation setAutoreverses:]', symObjAddr: 0x3E8, symBinAddr: 0x70E8, symSize: 0x3C }
+  - { offset: 0x18AF2, size: 0x8, addend: 0x0, symName: '-[POPAnimation type]', symObjAddr: 0x424, symBinAddr: 0x7124, symSize: 0xC }
+  - { offset: 0x18B27, size: 0x8, addend: 0x0, symName: '-[POPAnimation animationDidStartBlock]', symObjAddr: 0x430, symBinAddr: 0x7130, symSize: 0x1C }
+  - { offset: 0x18B5B, size: 0x8, addend: 0x0, symName: '-[POPAnimation setAnimationDidStartBlock:]', symObjAddr: 0x44C, symBinAddr: 0x714C, symSize: 0x6C }
+  - { offset: 0x18B9B, size: 0x8, addend: 0x0, symName: '-[POPAnimation animationDidReachToValueBlock]', symObjAddr: 0x4B8, symBinAddr: 0x71B8, symSize: 0x1C }
+  - { offset: 0x18BCF, size: 0x8, addend: 0x0, symName: '-[POPAnimation setAnimationDidReachToValueBlock:]', symObjAddr: 0x4D4, symBinAddr: 0x71D4, symSize: 0x6C }
+  - { offset: 0x18C0F, size: 0x8, addend: 0x0, symName: '-[POPAnimation completionBlock]', symObjAddr: 0x540, symBinAddr: 0x7240, symSize: 0x1C }
+  - { offset: 0x18C43, size: 0x8, addend: 0x0, symName: '-[POPAnimation setCompletionBlock:]', symObjAddr: 0x55C, symBinAddr: 0x725C, symSize: 0x6C }
+  - { offset: 0x18C83, size: 0x8, addend: 0x0, symName: '-[POPAnimation animationDidApplyBlock]', symObjAddr: 0x5C8, symBinAddr: 0x72C8, symSize: 0x1C }
+  - { offset: 0x18CB7, size: 0x8, addend: 0x0, symName: '-[POPAnimation setAnimationDidApplyBlock:]', symObjAddr: 0x5E4, symBinAddr: 0x72E4, symSize: 0x6C }
+  - { offset: 0x18CF7, size: 0x8, addend: 0x0, symName: '-[POPAnimation name]', symObjAddr: 0x650, symBinAddr: 0x7350, symSize: 0xC }
+  - { offset: 0x18D2B, size: 0x8, addend: 0x0, symName: '-[POPAnimation setName:]', symObjAddr: 0x65C, symBinAddr: 0x735C, symSize: 0x6C }
+  - { offset: 0x18D6B, size: 0x8, addend: 0x0, symName: '-[POPAnimation beginTime]', symObjAddr: 0x6C8, symBinAddr: 0x73C8, symSize: 0xC }
+  - { offset: 0x18D9F, size: 0x8, addend: 0x0, symName: '-[POPAnimation setBeginTime:]', symObjAddr: 0x6D4, symBinAddr: 0x73D4, symSize: 0x1C }
+  - { offset: 0x18DDE, size: 0x8, addend: 0x0, symName: '-[POPAnimation removedOnCompletion]', symObjAddr: 0x6F0, symBinAddr: 0x73F0, symSize: 0x10 }
+  - { offset: 0x18E13, size: 0x8, addend: 0x0, symName: '-[POPAnimation setRemovedOnCompletion:]', symObjAddr: 0x700, symBinAddr: 0x7400, symSize: 0x34 }
+  - { offset: 0x18E56, size: 0x8, addend: 0x0, symName: '-[POPAnimation repeatForever]', symObjAddr: 0x734, symBinAddr: 0x7434, symSize: 0x10 }
+  - { offset: 0x18E8B, size: 0x8, addend: 0x0, symName: '-[POPAnimation setRepeatForever:]', symObjAddr: 0x744, symBinAddr: 0x7444, symSize: 0x34 }
+  - { offset: 0x18ECE, size: 0x8, addend: 0x0, symName: '-[POPAnimation valueForUndefinedKey:]', symObjAddr: 0x778, symBinAddr: 0x7478, symSize: 0x24 }
+  - { offset: 0x18F11, size: 0x8, addend: 0x0, symName: '-[POPAnimation setValue:forUndefinedKey:]', symObjAddr: 0x79C, symBinAddr: 0x749C, symSize: 0xBC }
+  - { offset: 0x18F60, size: 0x8, addend: 0x0, symName: '-[POPAnimation tracer]', symObjAddr: 0x858, symBinAddr: 0x7558, symSize: 0x58 }
+  - { offset: 0x18F95, size: 0x8, addend: 0x0, symName: '-[POPAnimation description]', symObjAddr: 0x8B0, symBinAddr: 0x75B0, symSize: 0xB4 }
+  - { offset: 0x18FE6, size: 0x8, addend: 0x0, symName: '-[POPAnimation debugDescription]', symObjAddr: 0x964, symBinAddr: 0x7664, symSize: 0xB4 }
+  - { offset: 0x19037, size: 0x8, addend: 0x0, symName: __Z20POPAnimationGetStateP12POPAnimation, symObjAddr: 0xA18, symBinAddr: 0x7718, symSize: 0x8 }
+  - { offset: 0x19065, size: 0x8, addend: 0x0, symName: '-[POPAnimation _advance:currentTime:elapsedTime:]', symObjAddr: 0xA20, symBinAddr: 0x7720, symSize: 0x8 }
+  - { offset: 0x190D3, size: 0x8, addend: 0x0, symName: '-[POPAnimation _appendDescription:debug:]', symObjAddr: 0xA28, symBinAddr: 0x7728, symSize: 0x27C }
+  - { offset: 0x1915A, size: 0x8, addend: 0x0, symName: '-[POPAnimation solver]', symObjAddr: 0xCA4, symBinAddr: 0x79A4, symSize: 0x8 }
+  - { offset: 0x1918F, size: 0x8, addend: 0x0, symName: '-[POPAnimation setSolver:]', symObjAddr: 0xCAC, symBinAddr: 0x79AC, symSize: 0x8 }
+  - { offset: 0x191CB, size: 0x8, addend: 0x0, symName: '-[POPAnimation currentValue]', symObjAddr: 0xCB4, symBinAddr: 0x79B4, symSize: 0x8 }
+  - { offset: 0x19200, size: 0x8, addend: 0x0, symName: '-[POPAnimation progressMarkers]', symObjAddr: 0xCBC, symBinAddr: 0x79BC, symSize: 0x8 }
+  - { offset: 0x19235, size: 0x8, addend: 0x0, symName: '-[POPAnimation setProgressMarkers:]', symObjAddr: 0xCC4, symBinAddr: 0x79C4, symSize: 0x8 }
+  - { offset: 0x19274, size: 0x8, addend: 0x0, symName: '-[POPAnimation .cxx_destruct]', symObjAddr: 0xCCC, symBinAddr: 0x79CC, symSize: 0x30 }
+  - { offset: 0x192A4, size: 0x8, addend: 0x0, symName: '-[NSObject(POP) pop_addAnimation:forKey:]', symObjAddr: 0xCFC, symBinAddr: 0x79FC, symSize: 0xA8 }
+  - { offset: 0x192F2, size: 0x8, addend: 0x0, symName: '-[NSObject(POP) pop_removeAllAnimations]', symObjAddr: 0xDA4, symBinAddr: 0x7AA4, symSize: 0x54 }
+  - { offset: 0x19322, size: 0x8, addend: 0x0, symName: '-[NSObject(POP) pop_removeAnimationForKey:]', symObjAddr: 0xDF8, symBinAddr: 0x7AF8, symSize: 0x84 }
+  - { offset: 0x19362, size: 0x8, addend: 0x0, symName: '-[NSObject(POP) pop_animationKeys]', symObjAddr: 0xE7C, symBinAddr: 0x7B7C, symSize: 0x68 }
+  - { offset: 0x19397, size: 0x8, addend: 0x0, symName: '-[NSObject(POP) pop_animationForKey:]', symObjAddr: 0xEE4, symBinAddr: 0x7BE4, symSize: 0x98 }
+  - { offset: 0x193DA, size: 0x8, addend: 0x0, symName: '-[NSProxy(POP) pop_addAnimation:forKey:]', symObjAddr: 0xF7C, symBinAddr: 0x7C7C, symSize: 0xA8 }
+  - { offset: 0x19428, size: 0x8, addend: 0x0, symName: '-[NSProxy(POP) pop_removeAllAnimations]', symObjAddr: 0x1024, symBinAddr: 0x7D24, symSize: 0x54 }
+  - { offset: 0x19459, size: 0x8, addend: 0x0, symName: '-[NSProxy(POP) pop_removeAnimationForKey:]', symObjAddr: 0x1078, symBinAddr: 0x7D78, symSize: 0x84 }
+  - { offset: 0x1949C, size: 0x8, addend: 0x0, symName: '-[NSProxy(POP) pop_animationKeys]', symObjAddr: 0x10FC, symBinAddr: 0x7DFC, symSize: 0x68 }
+  - { offset: 0x194D2, size: 0x8, addend: 0x0, symName: '-[NSProxy(POP) pop_animationForKey:]', symObjAddr: 0x1164, symBinAddr: 0x7E64, symSize: 0x98 }
+  - { offset: 0x19519, size: 0x8, addend: 0x0, symName: '-[POPAnimation(NSCopying) copyWithZone:]', symObjAddr: 0x11FC, symBinAddr: 0x7EFC, symSize: 0x1CC }
+  - { offset: 0x1C040, size: 0x8, addend: 0x0, symName: '+[POPAnimator sharedAnimator]', symObjAddr: 0x0, symBinAddr: 0x80C8, symSize: 0x40 }
+  - { offset: 0x1C06C, size: 0x8, addend: 0x0, symName: '__ZZ29+[POPAnimator sharedAnimator]E9_animator', symObjAddr: 0x42F08, symBinAddr: 0x22D20, symSize: 0x0 }
+  - { offset: 0x1C083, size: 0x8, addend: 0x0, symName: '__ZZ29+[POPAnimator sharedAnimator]E9onceToken', symObjAddr: 0x42F10, symBinAddr: 0x22D28, symSize: 0x0 }
+  - { offset: 0x217EF, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_10shared_ptrI15POPAnimatorItemEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m, symObjAddr: 0x2ADC, symBinAddr: 0xA7C8, symSize: 0x34 }
+  - { offset: 0x21893, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x2B10, symBinAddr: 0xA7FC, symSize: 0x50 }
+  - { offset: 0x218A7, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB8ne180100EPKc, symObjAddr: 0x2B10, symBinAddr: 0xA7FC, symSize: 0x50 }
+  - { offset: 0x2316B, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB8ne180100v, symObjAddr: 0x2B84, symBinAddr: 0xA870, symSize: 0x28 }
+  - { offset: 0x23AC7, size: 0x8, addend: 0x0, symName: '-[POPAnimator _scheduleProcessPendingList]', symObjAddr: 0x320, symBinAddr: 0x83D8, symSize: 0x10C }
+  - { offset: 0x23FA0, size: 0x8, addend: 0x0, symName: '___29+[POPAnimator sharedAnimator]_block_invoke', symObjAddr: 0x40, symBinAddr: 0x8108, symSize: 0x30 }
+  - { offset: 0x23FC9, size: 0x8, addend: 0x0, symName: '-[POPAnimator init]', symObjAddr: 0x70, symBinAddr: 0x8138, symSize: 0x130 }
+  - { offset: 0x240AC, size: 0x8, addend: 0x0, symName: '-[POPAnimator dealloc]', symObjAddr: 0x1A0, symBinAddr: 0x8268, symSize: 0x84 }
+  - { offset: 0x2419F, size: 0x8, addend: 0x0, symName: '-[POPAnimator _processPendingList]', symObjAddr: 0x234, symBinAddr: 0x82EC, symSize: 0xA4 }
+  - { offset: 0x2436E, size: 0x8, addend: 0x0, symName: __ZNSt3__14listINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEEC2ERKS6_, symObjAddr: 0x2984, symBinAddr: 0xA670, symSize: 0x68 }
+  - { offset: 0x24517, size: 0x8, addend: 0x0, symName: __ZNSt3__110__list_impINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE5clearEv, symObjAddr: 0x1D74, symBinAddr: 0x9DC4, symSize: 0x70 }
+  - { offset: 0x2479D, size: 0x8, addend: 0x0, symName: '-[POPAnimator _clearPendingListObserver]', symObjAddr: 0x2D8, symBinAddr: 0x8390, symSize: 0x48 }
+  - { offset: 0x2493D, size: 0x8, addend: 0x0, symName: '___42-[POPAnimator _scheduleProcessPendingList]_block_invoke', symObjAddr: 0x42C, symBinAddr: 0x84E4, symSize: 0x40 }
+  - { offset: 0x24993, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32w, symObjAddr: 0x46C, symBinAddr: 0x8524, symSize: 0xC }
+  - { offset: 0x249BC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32w, symObjAddr: 0x478, symBinAddr: 0x8530, symSize: 0x8 }
+  - { offset: 0x24C4B, size: 0x8, addend: 0x0, symName: '-[POPAnimator _renderTime:items:]', symObjAddr: 0x480, symBinAddr: 0x8538, symSize: 0x318 }
+  - { offset: 0x253D1, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE16__init_with_sizeB8ne180100INS_15__list_iteratorIS3_PvEESA_EEvT_T0_m, symObjAddr: 0x29EC, symBinAddr: 0xA6D8, symSize: 0x9C }
+  - { offset: 0x2576C, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE16__destroy_vectorclB8ne180100Ev, symObjAddr: 0x2BAC, symBinAddr: 0xA898, symSize: 0x70 }
+  - { offset: 0x258F4, size: 0x8, addend: 0x0, symName: __ZL17updateDisplayLinkP11POPAnimator, symObjAddr: 0x798, symBinAddr: 0x8850, symSize: 0x7C }
+  - { offset: 0x25A71, size: 0x8, addend: 0x0, symName: '-[POPAnimator _renderTime:item:]', symObjAddr: 0x814, symBinAddr: 0x88CC, symSize: 0x424 }
+  - { offset: 0x25F81, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState13startIfNeededEP11objc_objectdd, symObjAddr: 0xD44, symBinAddr: 0x8DFC, symSize: 0xF8 }
+  - { offset: 0x26069, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState11advanceTimeEdP11objc_object, symObjAddr: 0x1DE4, symBinAddr: 0x9E34, symSize: 0x110 }
+  - { offset: 0x2613C, size: 0x8, addend: 0x0, symName: __ZL16updateAnimatableP11objc_objectP26_POPPropertyAnimationStateb, symObjAddr: 0x1EF4, symBinAddr: 0x9F44, symSize: 0x49C }
+  - { offset: 0x26884, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState16finalizeProgressEv, symObjAddr: 0x2628, symBinAddr: 0xA3E0, symSize: 0xC4 }
+  - { offset: 0x26AB6, size: 0x8, addend: 0x0, symName: __ZL14stopAndCleanupP11POPAnimatorNSt3__110shared_ptrI15POPAnimatorItemEEbb, symObjAddr: 0xC38, symBinAddr: 0x8CF0, symSize: 0x10C }
+  - { offset: 0x26E93, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState4stopEbb, symObjAddr: 0xE3C, symBinAddr: 0x8EF4, symSize: 0x98 }
+  - { offset: 0x27096, size: 0x8, addend: 0x0, symName: __ZL15deleteDictEntryP11POPAnimatorP11objc_objectP8NSStringb, symObjAddr: 0x17D8, symBinAddr: 0x9828, symSize: 0x138 }
+  - { offset: 0x271A1, size: 0x8, addend: 0x0, symName: __ZN18_POPAnimationState13handleDidStopEb, symObjAddr: 0x2778, symBinAddr: 0xA4A4, symSize: 0x124 }
+  - { offset: 0x27375, size: 0x8, addend: 0x0, symName: '-[POPAnimator observers]', symObjAddr: 0xED4, symBinAddr: 0x8F8C, symSize: 0x68 }
+  - { offset: 0x27452, size: 0x8, addend: 0x0, symName: '-[POPAnimator addAnimation:forObject:key:]', symObjAddr: 0xF3C, symBinAddr: 0x8FF4, symSize: 0x290 }
+  - { offset: 0x27788, size: 0x8, addend: 0x0, symName: __ZN15POPAnimatorItemC2EP11objc_objectP8NSStringP12POPAnimation, symObjAddr: 0x28DC, symBinAddr: 0xA5C8, symSize: 0xA8 }
+  - { offset: 0x277DF, size: 0x8, addend: 0x0, symName: __ZNSt3__110shared_ptrI15POPAnimatorItemEC2B8ne180100IS1_vEEPT_, symObjAddr: 0x2C6C, symBinAddr: 0xA908, symSize: 0x64 }
+  - { offset: 0x27954, size: 0x8, addend: 0x0, symName: __ZNSt3__14listINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE9push_backERKS3_, symObjAddr: 0x11CC, symBinAddr: 0x9284, symSize: 0x5C }
+  - { offset: 0x27E1C, size: 0x8, addend: 0x0, symName: '-[POPAnimator removeAllAnimationsForObject:]', symObjAddr: 0x1228, symBinAddr: 0x92E0, symSize: 0x380 }
+  - { offset: 0x28492, size: 0x8, addend: 0x0, symName: '-[POPAnimator removeAnimationForObject:key:cleanupDict:]', symObjAddr: 0x1610, symBinAddr: 0x9660, symSize: 0x1C8 }
+  - { offset: 0x28B2F, size: 0x8, addend: 0x0, symName: '-[POPAnimator removeAnimationForObject:key:]', symObjAddr: 0x1910, symBinAddr: 0x9960, symSize: 0x8 }
+  - { offset: 0x28B7E, size: 0x8, addend: 0x0, symName: '-[POPAnimator animationKeysForObject:]', symObjAddr: 0x1918, symBinAddr: 0x9968, symSize: 0x94 }
+  - { offset: 0x28C12, size: 0x8, addend: 0x0, symName: '-[POPAnimator animationForObject:key:]', symObjAddr: 0x19AC, symBinAddr: 0x99FC, symSize: 0xE4 }
+  - { offset: 0x28CC8, size: 0x8, addend: 0x0, symName: '-[POPAnimator refreshPeriod]', symObjAddr: 0x1A90, symBinAddr: 0x9AE0, symSize: 0x8 }
+  - { offset: 0x28CFE, size: 0x8, addend: 0x0, symName: '-[POPAnimator _currentRenderTime]', symObjAddr: 0x1A98, symBinAddr: 0x9AE8, symSize: 0x94 }
+  - { offset: 0x28DAA, size: 0x8, addend: 0x0, symName: '-[POPAnimator render]', symObjAddr: 0x1B2C, symBinAddr: 0x9B7C, symSize: 0x24 }
+  - { offset: 0x28DED, size: 0x8, addend: 0x0, symName: '-[POPAnimator renderTime:]', symObjAddr: 0x1B50, symBinAddr: 0x9BA0, symSize: 0x68 }
+  - { offset: 0x28F5B, size: 0x8, addend: 0x0, symName: '-[POPAnimator addObserver:]', symObjAddr: 0x1BB8, symBinAddr: 0x9C08, symSize: 0xA0 }
+  - { offset: 0x28FDA, size: 0x8, addend: 0x0, symName: '-[POPAnimator removeObserver:]', symObjAddr: 0x1C58, symBinAddr: 0x9CA8, symSize: 0x74 }
+  - { offset: 0x29059, size: 0x8, addend: 0x0, symName: '-[POPAnimator delegate]', symObjAddr: 0x1CCC, symBinAddr: 0x9D1C, symSize: 0x18 }
+  - { offset: 0x2908E, size: 0x8, addend: 0x0, symName: '-[POPAnimator setDelegate:]', symObjAddr: 0x1CE4, symBinAddr: 0x9D34, symSize: 0xC }
+  - { offset: 0x290CD, size: 0x8, addend: 0x0, symName: '-[POPAnimator disableDisplayLink]', symObjAddr: 0x1CF0, symBinAddr: 0x9D40, symSize: 0x8 }
+  - { offset: 0x29102, size: 0x8, addend: 0x0, symName: '-[POPAnimator setDisableDisplayLink:]', symObjAddr: 0x1CF8, symBinAddr: 0x9D48, symSize: 0x8 }
+  - { offset: 0x2913C, size: 0x8, addend: 0x0, symName: '-[POPAnimator beginTime]', symObjAddr: 0x1D00, symBinAddr: 0x9D50, symSize: 0x8 }
+  - { offset: 0x29170, size: 0x8, addend: 0x0, symName: '-[POPAnimator setBeginTime:]', symObjAddr: 0x1D08, symBinAddr: 0x9D58, symSize: 0x8 }
+  - { offset: 0x291AD, size: 0x8, addend: 0x0, symName: '-[POPAnimator .cxx_destruct]', symObjAddr: 0x1D10, symBinAddr: 0x9D60, symSize: 0x48 }
+  - { offset: 0x293F5, size: 0x8, addend: 0x0, symName: '-[POPAnimator .cxx_construct]', symObjAddr: 0x1D58, symBinAddr: 0x9DA8, symSize: 0x1C }
+  - { offset: 0x2A1D6, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE11__vallocateB8ne180100Em, symObjAddr: 0x2A88, symBinAddr: 0xA774, symSize: 0x40 }
+  - { offset: 0x2A253, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev, symObjAddr: 0x2AC8, symBinAddr: 0xA7B4, symSize: 0x14 }
+  - { offset: 0x2A279, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorINS_10shared_ptrI15POPAnimatorItemEENS_9allocatorIS3_EEE20__throw_length_errorB8ne180100Ev, symObjAddr: 0x2AC8, symBinAddr: 0xA7B4, symSize: 0x14 }
+  - { offset: 0x2A2A1, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB8ne180100INS_9allocatorINS_10shared_ptrI15POPAnimatorItemEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m, symObjAddr: 0x2ADC, symBinAddr: 0xA7C8, symSize: 0x34 }
+  - { offset: 0x2A2CC, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B8ne180100EPKc, symObjAddr: 0x2B60, symBinAddr: 0xA84C, symSize: 0x24 }
+  - { offset: 0x2A694, size: 0x8, addend: 0x0, symName: __ZN15POPAnimatorItemD2Ev, symObjAddr: 0x2D4C, symBinAddr: 0xA9E8, symSize: 0x38 }
+  - { offset: 0x2A6D9, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED1Ev, symObjAddr: 0x2CD0, symBinAddr: 0xA96C, symSize: 0x4 }
+  - { offset: 0x2A6FC, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED1Ev, symObjAddr: 0x2CD0, symBinAddr: 0xA96C, symSize: 0x4 }
+  - { offset: 0x2A732, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEED0Ev, symObjAddr: 0x2CD4, symBinAddr: 0xA970, symSize: 0x14 }
+  - { offset: 0x2A797, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE16__on_zero_sharedEv, symObjAddr: 0x2CE8, symBinAddr: 0xA984, symSize: 0x24 }
+  - { offset: 0x2A805, size: 0x8, addend: 0x0, symName: __ZNKSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE13__get_deleterERKSt9type_info, symObjAddr: 0x2D0C, symBinAddr: 0xA9A8, symSize: 0x3C }
+  - { offset: 0x2A8A3, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2D48, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offset: 0x2A8D6, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2D48, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offset: 0x2A8F9, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2D48, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offset: 0x2A928, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2D48, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offset: 0x2A951, size: 0x8, addend: 0x0, symName: __ZNSt3__120__shared_ptr_pointerIP15POPAnimatorItemNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEE21__on_zero_shared_weakEv, symObjAddr: 0x2D48, symBinAddr: 0xA9E4, symSize: 0x4 }
+  - { offset: 0x2CB19, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer initWithAnimation:]', symObjAddr: 0x0, symBinAddr: 0xAA20, symSize: 0xE8 }
+  - { offset: 0x2D2A2, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer initWithAnimation:]', symObjAddr: 0x0, symBinAddr: 0xAA20, symSize: 0xE8 }
+  - { offset: 0x2D30E, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer readPropertyValue:]', symObjAddr: 0xE8, symBinAddr: 0xAB08, symSize: 0x58 }
+  - { offset: 0x2D383, size: 0x8, addend: 0x0, symName: __ZL12create_eventP18POPAnimationTracer21POPAnimationEventTypeP11objc_objectb, symObjAddr: 0x140, symBinAddr: 0xAB60, symSize: 0x1A4 }
+  - { offset: 0x2D415, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer writePropertyValue:]', symObjAddr: 0x2E4, symBinAddr: 0xAD04, symSize: 0x58 }
+  - { offset: 0x2D489, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateToValue:]', symObjAddr: 0x33C, symBinAddr: 0xAD5C, symSize: 0x58 }
+  - { offset: 0x2D4FD, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateFromValue:]', symObjAddr: 0x394, symBinAddr: 0xADB4, symSize: 0x58 }
+  - { offset: 0x2D571, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateVelocity:]', symObjAddr: 0x3EC, symBinAddr: 0xAE0C, symSize: 0x58 }
+  - { offset: 0x2D5E5, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateSpeed:]', symObjAddr: 0x444, symBinAddr: 0xAE64, symSize: 0x94 }
+  - { offset: 0x2D657, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateBounciness:]', symObjAddr: 0x4D8, symBinAddr: 0xAEF8, symSize: 0x94 }
+  - { offset: 0x2D6C9, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateFriction:]', symObjAddr: 0x56C, symBinAddr: 0xAF8C, symSize: 0x94 }
+  - { offset: 0x2D73B, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateMass:]', symObjAddr: 0x600, symBinAddr: 0xB020, symSize: 0x94 }
+  - { offset: 0x2D7AD, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer updateTension:]', symObjAddr: 0x694, symBinAddr: 0xB0B4, symSize: 0x94 }
+  - { offset: 0x2D81F, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer didStart]', symObjAddr: 0x728, symBinAddr: 0xB148, symSize: 0x5C }
+  - { offset: 0x2D882, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer didStop:]', symObjAddr: 0x784, symBinAddr: 0xB1A4, symSize: 0xE8 }
+  - { offset: 0x2D910, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer didReachToValue:]', symObjAddr: 0x86C, symBinAddr: 0xB28C, symSize: 0x58 }
+  - { offset: 0x2D984, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer autoreversed]', symObjAddr: 0x8C4, symBinAddr: 0xB2E4, symSize: 0x5C }
+  - { offset: 0x2D9E7, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer start]', symObjAddr: 0x920, symBinAddr: 0xB340, symSize: 0x54 }
+  - { offset: 0x2DA33, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer stop]', symObjAddr: 0x974, symBinAddr: 0xB394, symSize: 0x54 }
+  - { offset: 0x2DA80, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer reset]', symObjAddr: 0x9C8, symBinAddr: 0xB3E8, symSize: 0x8 }
+  - { offset: 0x2DAB1, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer allEvents]', symObjAddr: 0x9D0, symBinAddr: 0xB3F0, symSize: 0x18 }
+  - { offset: 0x2DAE6, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer writeEvents]', symObjAddr: 0x9E8, symBinAddr: 0xB408, symSize: 0x8 }
+  - { offset: 0x2DB1A, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer eventsWithType:]', symObjAddr: 0x9F0, symBinAddr: 0xB410, symSize: 0x15C }
+  - { offset: 0x2DB83, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer shouldLogAndResetOnCompletion]', symObjAddr: 0xB4C, symBinAddr: 0xB56C, symSize: 0x8 }
+  - { offset: 0x2DBB8, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer setShouldLogAndResetOnCompletion:]', symObjAddr: 0xB54, symBinAddr: 0xB574, symSize: 0x8 }
+  - { offset: 0x2DBF2, size: 0x8, addend: 0x0, symName: '-[POPAnimationTracer .cxx_destruct]', symObjAddr: 0xB5C, symBinAddr: 0xB57C, symSize: 0x2C }
+  - { offset: 0x30679, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorC2Em, symObjAddr: 0x0, symBinAddr: 0xB5A8, symSize: 0x40 }
+  - { offset: 0x30ADB, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorC2Em, symObjAddr: 0x0, symBinAddr: 0xB5A8, symSize: 0x40 }
+  - { offset: 0x30B5E, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorC1Em, symObjAddr: 0x40, symBinAddr: 0xB5E8, symSize: 0x40 }
+  - { offset: 0x30BEF, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorC2ERKS0_, symObjAddr: 0x80, symBinAddr: 0xB628, symSize: 0x5C }
+  - { offset: 0x30C95, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorC1ERKS0_, symObjAddr: 0xDC, symBinAddr: 0xB684, symSize: 0x5C }
+  - { offset: 0x30D3C, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorD2Ev, symObjAddr: 0x138, symBinAddr: 0xB6E0, symSize: 0x34 }
+  - { offset: 0x30D94, size: 0x8, addend: 0x0, symName: __ZN3POP6VectorD1Ev, symObjAddr: 0x16C, symBinAddr: 0xB714, symSize: 0x34 }
+  - { offset: 0x319C1, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector4swapERS0_S1_, symObjAddr: 0x1A0, symBinAddr: 0xB748, symSize: 0x14 }
+  - { offset: 0x319F4, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector4swapERS0_S1_, symObjAddr: 0x1A0, symBinAddr: 0xB748, symSize: 0x14 }
+  - { offset: 0x31A94, size: 0x8, addend: 0x0, symName: __ZN3POP6VectoraSERKS0_, symObjAddr: 0x1B4, symBinAddr: 0xB75C, symSize: 0x68 }
+  - { offset: 0x31BF7, size: 0x8, addend: 0x0, symName: __ZNK3POP6VectoreqERKS0_, symObjAddr: 0x21C, symBinAddr: 0xB7C4, symSize: 0x54 }
+  - { offset: 0x31C77, size: 0x8, addend: 0x0, symName: __ZNK3POP6VectorneERKS0_, symObjAddr: 0x270, symBinAddr: 0xB818, symSize: 0x54 }
+  - { offset: 0x31D1C, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector10new_vectorEmPKd, symObjAddr: 0x2C4, symBinAddr: 0xB86C, symSize: 0x68 }
+  - { offset: 0x31DB2, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector10new_vectorEPKS0_, symObjAddr: 0x32C, symBinAddr: 0xB8D4, symSize: 0x14 }
+  - { offset: 0x31E28, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector10new_vectorEmNS_7Vector4IdEE, symObjAddr: 0x340, symBinAddr: 0xB8E8, symSize: 0x88 }
+  - { offset: 0x31F22, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8vector4rEv, symObjAddr: 0x3C8, symBinAddr: 0xB970, symSize: 0x58 }
+  - { offset: 0x31FA2, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8vector2rEv, symObjAddr: 0x420, symBinAddr: 0xB9C8, symSize: 0x2C }
+  - { offset: 0x31FCD, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector12new_cg_floatEd, symObjAddr: 0x44C, symBinAddr: 0xB9F4, symSize: 0x50 }
+  - { offset: 0x32084, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8cg_pointEv, symObjAddr: 0x49C, symBinAddr: 0xBA44, symSize: 0x2C }
+  - { offset: 0x320BC, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8cg_pointEv, symObjAddr: 0x49C, symBinAddr: 0xBA44, symSize: 0x2C }
+  - { offset: 0x320E1, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector12new_cg_pointERK7CGPoint, symObjAddr: 0x4C8, symBinAddr: 0xBA70, symSize: 0x4C }
+  - { offset: 0x32176, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector7cg_sizeEv, symObjAddr: 0x514, symBinAddr: 0xBABC, symSize: 0x2C }
+  - { offset: 0x321AE, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector7cg_sizeEv, symObjAddr: 0x514, symBinAddr: 0xBABC, symSize: 0x2C }
+  - { offset: 0x321D3, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector11new_cg_sizeERK6CGSize, symObjAddr: 0x540, symBinAddr: 0xBAE8, symSize: 0x4C }
+  - { offset: 0x32268, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector7cg_rectEv, symObjAddr: 0x58C, symBinAddr: 0xBB34, symSize: 0x28 }
+  - { offset: 0x3228F, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector11new_cg_rectERK6CGRect, symObjAddr: 0x5B4, symBinAddr: 0xBB5C, symSize: 0x4C }
+  - { offset: 0x32324, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector14ui_edge_insetsEv, symObjAddr: 0x600, symBinAddr: 0xBBA8, symSize: 0x28 }
+  - { offset: 0x3234B, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector18new_ui_edge_insetsERK12UIEdgeInsets, symObjAddr: 0x628, symBinAddr: 0xBBD0, symSize: 0x4C }
+  - { offset: 0x323E0, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector19cg_affine_transformEv, symObjAddr: 0x674, symBinAddr: 0xBC1C, symSize: 0x30 }
+  - { offset: 0x32415, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector23new_cg_affine_transformERK17CGAffineTransform, symObjAddr: 0x6A4, symBinAddr: 0xBC4C, symSize: 0x54 }
+  - { offset: 0x324AA, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8cg_colorEv, symObjAddr: 0x6F8, symBinAddr: 0xBCA0, symSize: 0x1C }
+  - { offset: 0x3251D, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector12new_cg_colorEP7CGColor, symObjAddr: 0x714, symBinAddr: 0xBCBC, symSize: 0x8C }
+  - { offset: 0x32636, size: 0x8, addend: 0x0, symName: __ZN3POP6Vector8subRoundEd, symObjAddr: 0x7A0, symBinAddr: 0xBD48, symSize: 0x2C }
+  - { offset: 0x3270A, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector4normEv, symObjAddr: 0x7CC, symBinAddr: 0xBD74, symSize: 0x30 }
+  - { offset: 0x32794, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector11squaredNormEv, symObjAddr: 0x7FC, symBinAddr: 0xBDA4, symSize: 0x2C }
+  - { offset: 0x327D8, size: 0x8, addend: 0x0, symName: __ZNK3POP6Vector8toStringEv, symObjAddr: 0x828, symBinAddr: 0xBDD0, symSize: 0x154 }
+  - { offset: 0x34706, size: 0x8, addend: 0x0, symName: _POPLayerGetScaleX, symObjAddr: 0x0, symBinAddr: 0xBF24, symSize: 0xA0 }
+  - { offset: 0x34714, size: 0x8, addend: 0x0, symName: _POPLayerGetScaleX, symObjAddr: 0x0, symBinAddr: 0xBF24, symSize: 0xA0 }
+  - { offset: 0x34780, size: 0x8, addend: 0x0, symName: _POPLayerSetScaleX, symObjAddr: 0xA0, symBinAddr: 0xBFC4, symSize: 0xF4 }
+  - { offset: 0x347E7, size: 0x8, addend: 0x0, symName: _POPLayerGetScaleY, symObjAddr: 0x194, symBinAddr: 0xC0B8, symSize: 0xA0 }
+  - { offset: 0x3482E, size: 0x8, addend: 0x0, symName: _POPLayerSetScaleY, symObjAddr: 0x234, symBinAddr: 0xC158, symSize: 0xF4 }
+  - { offset: 0x34895, size: 0x8, addend: 0x0, symName: _POPLayerGetScaleZ, symObjAddr: 0x328, symBinAddr: 0xC24C, symSize: 0xA0 }
+  - { offset: 0x348DC, size: 0x8, addend: 0x0, symName: _POPLayerSetScaleZ, symObjAddr: 0x3C8, symBinAddr: 0xC2EC, symSize: 0xF4 }
+  - { offset: 0x34943, size: 0x8, addend: 0x0, symName: _POPLayerGetScaleXY, symObjAddr: 0x4BC, symBinAddr: 0xC3E0, symSize: 0xA4 }
+  - { offset: 0x349A8, size: 0x8, addend: 0x0, symName: _POPLayerSetScaleXY, symObjAddr: 0x560, symBinAddr: 0xC484, symSize: 0x10C }
+  - { offset: 0x34A0F, size: 0x8, addend: 0x0, symName: _POPLayerGetTranslationX, symObjAddr: 0x66C, symBinAddr: 0xC590, symSize: 0xA0 }
+  - { offset: 0x34A56, size: 0x8, addend: 0x0, symName: _POPLayerSetTranslationX, symObjAddr: 0x70C, symBinAddr: 0xC630, symSize: 0xE4 }
+  - { offset: 0x34AA9, size: 0x8, addend: 0x0, symName: _POPLayerGetTranslationY, symObjAddr: 0x7F0, symBinAddr: 0xC714, symSize: 0xA0 }
+  - { offset: 0x34AF0, size: 0x8, addend: 0x0, symName: _POPLayerSetTranslationY, symObjAddr: 0x890, symBinAddr: 0xC7B4, symSize: 0xE4 }
+  - { offset: 0x34B43, size: 0x8, addend: 0x0, symName: _POPLayerGetTranslationZ, symObjAddr: 0x974, symBinAddr: 0xC898, symSize: 0xA0 }
+  - { offset: 0x34B8A, size: 0x8, addend: 0x0, symName: _POPLayerSetTranslationZ, symObjAddr: 0xA14, symBinAddr: 0xC938, symSize: 0xE4 }
+  - { offset: 0x34BDD, size: 0x8, addend: 0x0, symName: _POPLayerGetTranslationXY, symObjAddr: 0xAF8, symBinAddr: 0xCA1C, symSize: 0xA4 }
+  - { offset: 0x34C24, size: 0x8, addend: 0x0, symName: _POPLayerSetTranslationXY, symObjAddr: 0xB9C, symBinAddr: 0xCAC0, symSize: 0xE8 }
+  - { offset: 0x34C77, size: 0x8, addend: 0x0, symName: _POPLayerGetRotationX, symObjAddr: 0xC84, symBinAddr: 0xCBA8, symSize: 0xA0 }
+  - { offset: 0x34CBE, size: 0x8, addend: 0x0, symName: _POPLayerSetRotationX, symObjAddr: 0xD24, symBinAddr: 0xCC48, symSize: 0xE4 }
+  - { offset: 0x34D11, size: 0x8, addend: 0x0, symName: _POPLayerGetRotationY, symObjAddr: 0xE08, symBinAddr: 0xCD2C, symSize: 0xA0 }
+  - { offset: 0x34D58, size: 0x8, addend: 0x0, symName: _POPLayerSetRotationY, symObjAddr: 0xEA8, symBinAddr: 0xCDCC, symSize: 0xE4 }
+  - { offset: 0x34DAB, size: 0x8, addend: 0x0, symName: _POPLayerGetRotationZ, symObjAddr: 0xF8C, symBinAddr: 0xCEB0, symSize: 0xA0 }
+  - { offset: 0x34DF2, size: 0x8, addend: 0x0, symName: _POPLayerSetRotationZ, symObjAddr: 0x102C, symBinAddr: 0xCF50, symSize: 0xE4 }
+  - { offset: 0x34E45, size: 0x8, addend: 0x0, symName: _POPLayerGetRotation, symObjAddr: 0x1110, symBinAddr: 0xD034, symSize: 0x4 }
+  - { offset: 0x34E71, size: 0x8, addend: 0x0, symName: _POPLayerGetRotation, symObjAddr: 0x1110, symBinAddr: 0xD034, symSize: 0x4 }
+  - { offset: 0x34E84, size: 0x8, addend: 0x0, symName: _POPLayerSetRotation, symObjAddr: 0x1114, symBinAddr: 0xD038, symSize: 0x4 }
+  - { offset: 0x34EBB, size: 0x8, addend: 0x0, symName: _POPLayerSetRotation, symObjAddr: 0x1114, symBinAddr: 0xD038, symSize: 0x4 }
+  - { offset: 0x34ED7, size: 0x8, addend: 0x0, symName: _POPLayerGetSubScaleXY, symObjAddr: 0x1118, symBinAddr: 0xD03C, symSize: 0xA4 }
+  - { offset: 0x34F1E, size: 0x8, addend: 0x0, symName: _POPLayerSetSubScaleXY, symObjAddr: 0x11BC, symBinAddr: 0xD0E0, symSize: 0x10C }
+  - { offset: 0x34F85, size: 0x8, addend: 0x0, symName: _POPLayerGetSubTranslationX, symObjAddr: 0x12C8, symBinAddr: 0xD1EC, symSize: 0xA0 }
+  - { offset: 0x34FCC, size: 0x8, addend: 0x0, symName: _POPLayerSetSubTranslationX, symObjAddr: 0x1368, symBinAddr: 0xD28C, symSize: 0xE4 }
+  - { offset: 0x3501F, size: 0x8, addend: 0x0, symName: _POPLayerGetSubTranslationY, symObjAddr: 0x144C, symBinAddr: 0xD370, symSize: 0xA0 }
+  - { offset: 0x35066, size: 0x8, addend: 0x0, symName: _POPLayerSetSubTranslationY, symObjAddr: 0x14EC, symBinAddr: 0xD410, symSize: 0xE4 }
+  - { offset: 0x350C2, size: 0x8, addend: 0x0, symName: _POPLayerGetSubTranslationZ, symObjAddr: 0x15D0, symBinAddr: 0xD4F4, symSize: 0xA0 }
+  - { offset: 0x35110, size: 0x8, addend: 0x0, symName: _POPLayerSetSubTranslationZ, symObjAddr: 0x1670, symBinAddr: 0xD594, symSize: 0xE4 }
+  - { offset: 0x3516C, size: 0x8, addend: 0x0, symName: _POPLayerGetSubTranslationXY, symObjAddr: 0x1754, symBinAddr: 0xD678, symSize: 0xA4 }
+  - { offset: 0x351BA, size: 0x8, addend: 0x0, symName: _POPLayerSetSubTranslationXY, symObjAddr: 0x17F8, symBinAddr: 0xD71C, symSize: 0xE8 }
+  - { offset: 0x37886, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation _initState]', symObjAddr: 0x0, symBinAddr: 0xD804, symSize: 0xA0 }
+  - { offset: 0x3791F, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation isAdditive]', symObjAddr: 0xA0, symBinAddr: 0xD8A4, symSize: 0x1C }
+  - { offset: 0x37954, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setAdditive:]', symObjAddr: 0xBC, symBinAddr: 0xD8C0, symSize: 0x40 }
+  - { offset: 0x37997, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation roundingFactor]', symObjAddr: 0xFC, symBinAddr: 0xD900, symSize: 0x18 }
+  - { offset: 0x379CB, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setRoundingFactor:]', symObjAddr: 0x114, symBinAddr: 0xD918, symSize: 0x28 }
+  - { offset: 0x37A0A, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation clampMode]', symObjAddr: 0x13C, symBinAddr: 0xD940, symSize: 0x18 }
+  - { offset: 0x37A3F, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setClampMode:]', symObjAddr: 0x154, symBinAddr: 0xD958, symSize: 0x24 }
+  - { offset: 0x37A7D, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation property]', symObjAddr: 0x178, symBinAddr: 0xD97C, symSize: 0x18 }
+  - { offset: 0x37AB1, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setProperty:]', symObjAddr: 0x190, symBinAddr: 0xD994, symSize: 0x80 }
+  - { offset: 0x37AFD, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation progressMarkers]', symObjAddr: 0x210, symBinAddr: 0xDA14, symSize: 0x18 }
+  - { offset: 0x37B31, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setProgressMarkers:]', symObjAddr: 0x228, symBinAddr: 0xDA2C, symSize: 0x88 }
+  - { offset: 0x37B7D, size: 0x8, addend: 0x0, symName: __ZN26_POPPropertyAnimationState22updatedProgressMarkersEv, symObjAddr: 0x2B0, symBinAddr: 0xDAB4, symSize: 0x90 }
+  - { offset: 0x37CCF, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation fromValue]', symObjAddr: 0x340, symBinAddr: 0xDB44, symSize: 0xB0 }
+  - { offset: 0x37F74, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setFromValue:]', symObjAddr: 0x3F0, symBinAddr: 0xDBF4, symSize: 0x1BC }
+  - { offset: 0x38609, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation toValue]', symObjAddr: 0x614, symBinAddr: 0xDDB0, symSize: 0xB0 }
+  - { offset: 0x3883F, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation setToValue:]', symObjAddr: 0x6C4, symBinAddr: 0xDE60, symSize: 0x234 }
+  - { offset: 0x38FA6, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation currentValue]', symObjAddr: 0x954, symBinAddr: 0xE094, symSize: 0xE8 }
+  - { offset: 0x3942B, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation _appendDescription:debug:]', symObjAddr: 0xAA0, symBinAddr: 0xE17C, symSize: 0x3EC }
+  - { offset: 0x39C21, size: 0x8, addend: 0x0, symName: '-[POPPropertyAnimation(NSCopying) copyWithZone:]', symObjAddr: 0xE8C, symBinAddr: 0xE568, symSize: 0x158 }
+  - { offset: 0x39C74, size: 0x8, addend: 0x0, symName: '+[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyNamed:readBlock:writeBlock:]', symObjAddr: 0xFE4, symBinAddr: 0xE6C0, symSize: 0x17C }
+  - { offset: 0x39CE5, size: 0x8, addend: 0x0, symName: '___94+[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyNamed:readBlock:writeBlock:]_block_invoke', symObjAddr: 0x1160, symBinAddr: 0xE83C, symSize: 0x54 }
+  - { offset: 0x39D3D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b40b, symObjAddr: 0x11B4, symBinAddr: 0xE890, symSize: 0x3C }
+  - { offset: 0x39D66, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s40s, symObjAddr: 0x11F0, symBinAddr: 0xE8CC, symSize: 0x28 }
+  - { offset: 0x39D85, size: 0x8, addend: 0x0, symName: '+[POPPropertyAnimation(CustomProperty) animationWithCustomPropertyReadBlock:writeBlock:]', symObjAddr: 0x1218, symBinAddr: 0xE8F4, symSize: 0xF0 }
+  - { offset: 0x39F09, size: 0x8, addend: 0x0, symName: ____ZN26_POPPropertyAnimationState22updatedProgressMarkersEv_block_invoke, symObjAddr: 0x2594, symBinAddr: 0xE9E4, symSize: 0x70 }
+  - { offset: 0x3D90F, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation animation]', symObjAddr: 0x0, symBinAddr: 0xEA54, symSize: 0x18 }
+  - { offset: 0x3D944, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation animationWithPropertyNamed:]', symObjAddr: 0x18, symBinAddr: 0xEA6C, symSize: 0xB8 }
+  - { offset: 0x3D9BF, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation _initState]', symObjAddr: 0xD0, symBinAddr: 0xEB24, symSize: 0x54 }
+  - { offset: 0x3DA29, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationStateC2EP11objc_object, symObjAddr: 0x6B8, symBinAddr: 0xF10C, symSize: 0x98 }
+  - { offset: 0x3DA7F, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationStateC2EP11objc_object, symObjAddr: 0x6B8, symBinAddr: 0xF10C, symSize: 0x98 }
+  - { offset: 0x3DAA3, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation linearAnimation]', symObjAddr: 0x124, symBinAddr: 0xEB78, symSize: 0x90 }
+  - { offset: 0x3DAE7, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation easeInAnimation]', symObjAddr: 0x1B4, symBinAddr: 0xEC08, symSize: 0x90 }
+  - { offset: 0x3DB2B, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation easeOutAnimation]', symObjAddr: 0x244, symBinAddr: 0xEC98, symSize: 0x90 }
+  - { offset: 0x3DB6F, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation easeInEaseOutAnimation]', symObjAddr: 0x2D4, symBinAddr: 0xED28, symSize: 0x90 }
+  - { offset: 0x3DBB3, size: 0x8, addend: 0x0, symName: '+[POPBasicAnimation defaultAnimation]', symObjAddr: 0x364, symBinAddr: 0xEDB8, symSize: 0x90 }
+  - { offset: 0x3DBF7, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation init]', symObjAddr: 0x3F4, symBinAddr: 0xEE48, symSize: 0x4 }
+  - { offset: 0x3DC2B, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation duration]', symObjAddr: 0x3F8, symBinAddr: 0xEE4C, symSize: 0x18 }
+  - { offset: 0x3DC5F, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation setDuration:]', symObjAddr: 0x410, symBinAddr: 0xEE64, symSize: 0x28 }
+  - { offset: 0x3DC9E, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation timingFunction]', symObjAddr: 0x438, symBinAddr: 0xEE8C, symSize: 0x18 }
+  - { offset: 0x3DCD2, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation setTimingFunction:]', symObjAddr: 0x450, symBinAddr: 0xEEA4, symSize: 0x7C }
+  - { offset: 0x3DD1E, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationState21updatedTimingFunctionEv, symObjAddr: 0x4CC, symBinAddr: 0xEF20, symSize: 0x90 }
+  - { offset: 0x3DD6D, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation _appendDescription:debug:]', symObjAddr: 0x55C, symBinAddr: 0xEFB0, symSize: 0xAC }
+  - { offset: 0x3DDBC, size: 0x8, addend: 0x0, symName: '-[POPBasicAnimation(NSCopying) copyWithZone:]', symObjAddr: 0x608, symBinAddr: 0xF05C, symSize: 0xB0 }
+  - { offset: 0x3DE77, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationStateD1Ev, symObjAddr: 0x750, symBinAddr: 0xF1A4, symSize: 0x28 }
+  - { offset: 0x3E035, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationStateD0Ev, symObjAddr: 0x778, symBinAddr: 0xF1CC, symSize: 0x2C }
+  - { offset: 0x3E108, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationState6isDoneEv, symObjAddr: 0x8B0, symBinAddr: 0xF1F8, symSize: 0x44 }
+  - { offset: 0x3E147, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationState6isDoneEv, symObjAddr: 0x8B0, symBinAddr: 0xF1F8, symSize: 0x44 }
+  - { offset: 0x3E164, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationState6isDoneEv, symObjAddr: 0x8B0, symBinAddr: 0xF1F8, symSize: 0x44 }
+  - { offset: 0x3E2F1, size: 0x8, addend: 0x0, symName: __ZN23_POPBasicAnimationState7advanceEddP11objc_object, symObjAddr: 0xC34, symBinAddr: 0xF23C, symSize: 0x150 }
+  - { offset: 0x404EC, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent initWithType:time:]', symObjAddr: 0x0, symBinAddr: 0xF38C, symSize: 0x58 }
+  - { offset: 0x405F9, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent initWithType:time:]', symObjAddr: 0x0, symBinAddr: 0xF38C, symSize: 0x58 }
+  - { offset: 0x40669, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent description]', symObjAddr: 0x58, symBinAddr: 0xF3E4, symSize: 0xA4 }
+  - { offset: 0x406CB, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent _appendDescription:]', symObjAddr: 0xFC, symBinAddr: 0xF488, symSize: 0x6C }
+  - { offset: 0x4070B, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent type]', symObjAddr: 0x168, symBinAddr: 0xF4F4, symSize: 0x8 }
+  - { offset: 0x40740, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent time]', symObjAddr: 0x170, symBinAddr: 0xF4FC, symSize: 0x8 }
+  - { offset: 0x40774, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent animationDescription]', symObjAddr: 0x178, symBinAddr: 0xF504, symSize: 0x8 }
+  - { offset: 0x407A9, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent setAnimationDescription:]', symObjAddr: 0x180, symBinAddr: 0xF50C, symSize: 0x8 }
+  - { offset: 0x407E8, size: 0x8, addend: 0x0, symName: '-[POPAnimationEvent .cxx_destruct]', symObjAddr: 0x188, symBinAddr: 0xF514, symSize: 0xC }
+  - { offset: 0x40819, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent initWithType:time:value:]', symObjAddr: 0x194, symBinAddr: 0xF520, symSize: 0x90 }
+  - { offset: 0x4087A, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent _appendDescription:]', symObjAddr: 0x224, symBinAddr: 0xF5B0, symSize: 0xB4 }
+  - { offset: 0x408BA, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent value]', symObjAddr: 0x2D8, symBinAddr: 0xF664, symSize: 0x10 }
+  - { offset: 0x408EF, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent velocity]', symObjAddr: 0x2E8, symBinAddr: 0xF674, symSize: 0x10 }
+  - { offset: 0x40924, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent setVelocity:]', symObjAddr: 0x2F8, symBinAddr: 0xF684, symSize: 0x14 }
+  - { offset: 0x40963, size: 0x8, addend: 0x0, symName: '-[POPAnimationValueEvent .cxx_destruct]', symObjAddr: 0x30C, symBinAddr: 0xF698, symSize: 0x40 }
+  - { offset: 0x40B86, size: 0x8, addend: 0x0, symName: __Z20POPInterpolateVectormPdPKdS1_d, symObjAddr: 0x0, symBinAddr: 0xF6D8, symSize: 0x24 }
+  - { offset: 0x40D92, size: 0x8, addend: 0x0, symName: __Z20POPInterpolateVectormPdPKdS1_d, symObjAddr: 0x0, symBinAddr: 0xF6D8, symSize: 0x24 }
+  - { offset: 0x40DF7, size: 0x8, addend: 0x0, symName: __Z20POPInterpolateVectormPdPKdS1_d, symObjAddr: 0x0, symBinAddr: 0xF6D8, symSize: 0x24 }
+  - { offset: 0x41000, size: 0x8, addend: 0x0, symName: __Z22POPTimingFunctionSolvePKddd, symObjAddr: 0x24, symBinAddr: 0xF6FC, symSize: 0x78 }
+  - { offset: 0x4115F, size: 0x8, addend: 0x0, symName: __ZN7WebCore10UnitBezier11solveCurveXEdd, symObjAddr: 0x214, symBinAddr: 0xF8EC, symSize: 0xC8 }
+  - { offset: 0x41256, size: 0x8, addend: 0x0, symName: __Z12POPNormalizeddd, symObjAddr: 0x9C, symBinAddr: 0xF774, symSize: 0x10 }
+  - { offset: 0x412A2, size: 0x8, addend: 0x0, symName: __Z16POPProjectNormalddd, symObjAddr: 0xAC, symBinAddr: 0xF784, symSize: 0xC }
+  - { offset: 0x41321, size: 0x8, addend: 0x0, symName: __Z28POPQuadraticOutInterpolationddd, symObjAddr: 0xB8, symBinAddr: 0xF790, symSize: 0x20 }
+  - { offset: 0x413F5, size: 0x8, addend: 0x0, symName: __Z18POPBouncy3NoBounced, symObjAddr: 0xD8, symBinAddr: 0xF7B0, symSize: 0x104 }
+  - { offset: 0x41678, size: 0x8, addend: 0x0, symName: __Z17POPQuadraticSolvedddRdS_, symObjAddr: 0x1DC, symBinAddr: 0xF8B4, symSize: 0x38 }
+  - { offset: 0x417D2, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC2ERK17CGAffineTransform, symObjAddr: 0x0, symBinAddr: 0xF9B4, symSize: 0x34 }
+  - { offset: 0x4181E, size: 0x8, addend: 0x0, symName: __ZN7WebCoreL14determinant4x4ERA4_A4_Kd, symObjAddr: 0xB00, symBinAddr: 0x104B4, symSize: 0x94 }
+  - { offset: 0x41C9C, size: 0x8, addend: 0x0, symName: __ZN7WebCoreL7inverseERA4_A4_KdRA4_A4_d, symObjAddr: 0xCE4, symBinAddr: 0x10698, symSize: 0x208 }
+  - { offset: 0x42A69, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC2ERK17CGAffineTransform, symObjAddr: 0x0, symBinAddr: 0xF9B4, symSize: 0x34 }
+  - { offset: 0x42AD9, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC1ERK17CGAffineTransform, symObjAddr: 0x34, symBinAddr: 0xF9E8, symSize: 0x34 }
+  - { offset: 0x42B17, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC1ERK17CGAffineTransform, symObjAddr: 0x34, symBinAddr: 0xF9E8, symSize: 0x34 }
+  - { offset: 0x42C1F, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC2ERK13CATransform3D, symObjAddr: 0x68, symBinAddr: 0xFA1C, symSize: 0x24 }
+  - { offset: 0x42C79, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC1ERK13CATransform3D, symObjAddr: 0x8C, symBinAddr: 0xFA40, symSize: 0x4 }
+  - { offset: 0x42CB7, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrixC1ERK13CATransform3D, symObjAddr: 0x8C, symBinAddr: 0xFA40, symSize: 0x4 }
+  - { offset: 0x42D2A, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix11transform3dEv, symObjAddr: 0x90, symBinAddr: 0xFA44, symSize: 0x64 }
+  - { offset: 0x42D65, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix11transform3dEv, symObjAddr: 0x90, symBinAddr: 0xFA44, symSize: 0x64 }
+  - { offset: 0x42E8E, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix15affineTransformEv, symObjAddr: 0xF4, symBinAddr: 0xFAA8, symSize: 0x30 }
+  - { offset: 0x42EC9, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix15affineTransformEv, symObjAddr: 0xF4, symBinAddr: 0xFAA8, symSize: 0x30 }
+  - { offset: 0x42F5C, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrixcv13CATransform3DEv, symObjAddr: 0x124, symBinAddr: 0xFAD8, symSize: 0x4 }
+  - { offset: 0x42F87, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrixcv13CATransform3DEv, symObjAddr: 0x124, symBinAddr: 0xFAD8, symSize: 0x4 }
+  - { offset: 0x42FA1, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5scaleEd, symObjAddr: 0x128, symBinAddr: 0xFADC, symSize: 0x8 }
+  - { offset: 0x42FF8, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix15scaleNonUniformEdd, symObjAddr: 0x130, symBinAddr: 0xFAE4, symSize: 0x24 }
+  - { offset: 0x43069, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix16rotateFromVectorEdd, symObjAddr: 0x154, symBinAddr: 0xFB08, symSize: 0x50 }
+  - { offset: 0x43132, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix8rotate3dEddd, symObjAddr: 0x554, symBinAddr: 0xFF08, symSize: 0x154 }
+  - { offset: 0x43354, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5flipXEv, symObjAddr: 0x1A4, symBinAddr: 0xFB58, symSize: 0x14 }
+  - { offset: 0x4337F, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5flipXEv, symObjAddr: 0x1A4, symBinAddr: 0xFB58, symSize: 0x14 }
+  - { offset: 0x433BA, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5flipYEv, symObjAddr: 0x1B8, symBinAddr: 0xFB6C, symSize: 0x14 }
+  - { offset: 0x433E5, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5flipYEv, symObjAddr: 0x1B8, symBinAddr: 0xFB6C, symSize: 0x14 }
+  - { offset: 0x43420, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix7scale3dEddd, symObjAddr: 0x1CC, symBinAddr: 0xFB80, symSize: 0x34 }
+  - { offset: 0x434E9, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix8rotate3dEdddd, symObjAddr: 0x200, symBinAddr: 0xFBB4, symSize: 0x1D0 }
+  - { offset: 0x436B4, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix8multiplyERKS0_, symObjAddr: 0x3D0, symBinAddr: 0xFD84, symSize: 0x184 }
+  - { offset: 0x4379E, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix9translateEdd, symObjAddr: 0x6A8, symBinAddr: 0x1005C, symSize: 0x2C }
+  - { offset: 0x437E8, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix11translate3dEddd, symObjAddr: 0x6D4, symBinAddr: 0x10088, symSize: 0x38 }
+  - { offset: 0x43842, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix14translateRightEdd, symObjAddr: 0x70C, symBinAddr: 0x100C0, symSize: 0x88 }
+  - { offset: 0x4388B, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix16translateRight3dEddd, symObjAddr: 0x794, symBinAddr: 0x10148, symSize: 0x58 }
+  - { offset: 0x4390D, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix4skewEdd, symObjAddr: 0x7EC, symBinAddr: 0x101A0, symSize: 0x94 }
+  - { offset: 0x43AEF, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix16applyPerspectiveEd, symObjAddr: 0x880, symBinAddr: 0x10234, symSize: 0x60 }
+  - { offset: 0x43C35, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix13multVecMatrixEddRdS1_, symObjAddr: 0x8E0, symBinAddr: 0x10294, symSize: 0x74 }
+  - { offset: 0x43CAE, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix13multVecMatrixEdddRdS1_S1_, symObjAddr: 0x954, symBinAddr: 0x10308, symSize: 0xB8 }
+  - { offset: 0x43D46, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix12isInvertibleEv, symObjAddr: 0xA0C, symBinAddr: 0x103C0, symSize: 0x48 }
+  - { offset: 0x43DA9, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix23isIdentityOrTranslationEv, symObjAddr: 0xA54, symBinAddr: 0x10408, symSize: 0xAC }
+  - { offset: 0x43F61, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix7inverseEv, symObjAddr: 0xB94, symBinAddr: 0x10548, symSize: 0x150 }
+  - { offset: 0x44554, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix10makeAffineEv, symObjAddr: 0xEEC, symBinAddr: 0x108A0, symSize: 0x28 }
+  - { offset: 0x44586, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix5blendERKS0_d, symObjAddr: 0xF14, symBinAddr: 0x108C8, symSize: 0x330 }
+  - { offset: 0x44975, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix10isIdentityEv, symObjAddr: 0x1244, symBinAddr: 0x10BF8, symSize: 0xD0 }
+  - { offset: 0x4499B, size: 0x8, addend: 0x0, symName: __ZNK7WebCore20TransformationMatrix9decomposeERNS0_14DecomposedTypeE, symObjAddr: 0x1314, symBinAddr: 0x10CC8, symSize: 0x618 }
+  - { offset: 0x44DED, size: 0x8, addend: 0x0, symName: __ZN7WebCore20TransformationMatrix9recomposeERKNS0_14DecomposedTypeEb, symObjAddr: 0x192C, symBinAddr: 0x112E0, symSize: 0x33C }
+  - { offset: 0x45E46, size: 0x8, addend: 0x0, symName: __Z50POPDictionaryCreateMutableWeakPointerToWeakPointerm, symObjAddr: 0x0, symBinAddr: 0x1161C, symSize: 0x6C }
+  - { offset: 0x45E5F, size: 0x8, addend: 0x0, symName: _kPOPAnimatableAllTypes, symObjAddr: 0x908, symBinAddr: 0x17088, symSize: 0x0 }
+  - { offset: 0x45E93, size: 0x8, addend: 0x0, symName: _kPOPAnimatableSupportTypes, symObjAddr: 0x938, symBinAddr: 0x170B8, symSize: 0x0 }
+  - { offset: 0x47290, size: 0x8, addend: 0x0, symName: __Z50POPDictionaryCreateMutableWeakPointerToWeakPointerm, symObjAddr: 0x0, symBinAddr: 0x1161C, symSize: 0x6C }
+  - { offset: 0x4748E, size: 0x8, addend: 0x0, symName: __ZL12pointerEqualPKvS0_, symObjAddr: 0x6C, symBinAddr: 0x11688, symSize: 0xC }
+  - { offset: 0x474CA, size: 0x8, addend: 0x0, symName: __ZL11pointerHashPKv, symObjAddr: 0x78, symBinAddr: 0x11694, symSize: 0x4 }
+  - { offset: 0x474F7, size: 0x8, addend: 0x0, symName: __Z51POPDictionaryCreateMutableWeakPointerToStrongObjectm, symObjAddr: 0x7C, symBinAddr: 0x11698, symSize: 0x6C }
+  - { offset: 0x4758F, size: 0x8, addend: 0x0, symName: __Z18POPSelectValueTypePKcPK12POPValueTypem, symObjAddr: 0xE8, symBinAddr: 0x11704, symSize: 0x244 }
+  - { offset: 0x47797, size: 0x8, addend: 0x0, symName: __Z18POPSelectValueTypeP11objc_objectPK12POPValueTypem, symObjAddr: 0x32C, symBinAddr: 0x11948, symSize: 0xA0 }
+  - { offset: 0x47823, size: 0x8, addend: 0x0, symName: __Z20POPValueTypeToString12POPValueType, symObjAddr: 0x3CC, symBinAddr: 0x119E8, symSize: 0x20 }
+  - { offset: 0x4789F, size: 0x8, addend: 0x0, symName: __Z6POPBoxNSt3__110shared_ptrIKN3POP6VectorEEE12POPValueTypeb, symObjAddr: 0x3EC, symBinAddr: 0x11A08, symSize: 0xF8 }
+  - { offset: 0x47A85, size: 0x8, addend: 0x0, symName: __Z8POPUnboxP11objc_objectR12POPValueTypeRmb, symObjAddr: 0x4E4, symBinAddr: 0x11B00, symSize: 0x288 }
+  - { offset: 0x49E22, size: 0x8, addend: 0x0, symName: _POPCGColorGetRGBAComponents, symObjAddr: 0x0, symBinAddr: 0x11D88, symSize: 0xFC }
+  - { offset: 0x49E45, size: 0x8, addend: 0x0, symName: _POPCGColorGetRGBAComponents, symObjAddr: 0x0, symBinAddr: 0x11D88, symSize: 0xFC }
+  - { offset: 0x49F19, size: 0x8, addend: 0x0, symName: _POPCGColorRGBACreate, symObjAddr: 0xFC, symBinAddr: 0x11E84, symSize: 0x3C }
+  - { offset: 0x49FC6, size: 0x8, addend: 0x0, symName: _POPCGColorWithColor, symObjAddr: 0x138, symBinAddr: 0x11EC0, symSize: 0x94 }
+  - { offset: 0x4A034, size: 0x8, addend: 0x0, symName: _POPUIColorGetRGBAComponents, symObjAddr: 0x1CC, symBinAddr: 0x11F54, symSize: 0x48 }
+  - { offset: 0x4A0B9, size: 0x8, addend: 0x0, symName: _POPUIColorRGBACreate, symObjAddr: 0x214, symBinAddr: 0x11F9C, symSize: 0x78 }
+  - { offset: 0x4A38F, size: 0x8, addend: 0x0, symName: '+[POPCustomAnimation animationWithBlock:]', symObjAddr: 0x0, symBinAddr: 0x12014, symSize: 0x78 }
+  - { offset: 0x4AAC4, size: 0x8, addend: 0x0, symName: '+[POPCustomAnimation animationWithBlock:]', symObjAddr: 0x0, symBinAddr: 0x12014, symSize: 0x78 }
+  - { offset: 0x4AB17, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation _init]', symObjAddr: 0x78, symBinAddr: 0x1208C, symSize: 0x50 }
+  - { offset: 0x4AB4C, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation beginTime]', symObjAddr: 0xC8, symBinAddr: 0x120DC, symSize: 0x24 }
+  - { offset: 0x4ABBA, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation _advance:currentTime:elapsedTime:]', symObjAddr: 0xEC, symBinAddr: 0x12100, symSize: 0x34 }
+  - { offset: 0x4AC36, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation _appendDescription:debug:]', symObjAddr: 0x120, symBinAddr: 0x12134, symSize: 0x48 }
+  - { offset: 0x4AC81, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation currentTime]', symObjAddr: 0x168, symBinAddr: 0x1217C, symSize: 0x10 }
+  - { offset: 0x4ACB5, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation elapsedTime]', symObjAddr: 0x178, symBinAddr: 0x1218C, symSize: 0x10 }
+  - { offset: 0x4ACE9, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation animate]', symObjAddr: 0x188, symBinAddr: 0x1219C, symSize: 0x10 }
+  - { offset: 0x4AD1E, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation setAnimate:]', symObjAddr: 0x198, symBinAddr: 0x121AC, symSize: 0xC }
+  - { offset: 0x4AD5D, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation .cxx_destruct]', symObjAddr: 0x1A4, symBinAddr: 0x121B8, symSize: 0x14 }
+  - { offset: 0x4AD8E, size: 0x8, addend: 0x0, symName: '-[POPCustomAnimation(NSCopying) copyWithZone:]', symObjAddr: 0x1B8, symBinAddr: 0x121CC, symSize: 0xA0 }
+  - { offset: 0x4F1AF, size: 0x8, addend: 0x0, symName: '+[POPSpringAnimation animation]', symObjAddr: 0x0, symBinAddr: 0x1226C, symSize: 0x18 }
+  - { offset: 0x4F1E4, size: 0x8, addend: 0x0, symName: '+[POPSpringAnimation animationWithPropertyNamed:]', symObjAddr: 0x18, symBinAddr: 0x12284, symSize: 0xB8 }
+  - { offset: 0x4F25F, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation _initState]', symObjAddr: 0xD0, symBinAddr: 0x1233C, symSize: 0x54 }
+  - { offset: 0x4F2C9, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateC2EP11objc_object, symObjAddr: 0xBF8, symBinAddr: 0x12DFC, symSize: 0x90 }
+  - { offset: 0x4F302, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateC2EP11objc_object, symObjAddr: 0xBF8, symBinAddr: 0x12DFC, symSize: 0x90 }
+  - { offset: 0x4F326, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateC2EP11objc_object, symObjAddr: 0xBF8, symBinAddr: 0x12DFC, symSize: 0x90 }
+  - { offset: 0x4F3E3, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation init]', symObjAddr: 0x124, symBinAddr: 0x12390, symSize: 0xDC }
+  - { offset: 0x4F4DB, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState25updatedBouncinessAndSpeedEv, symObjAddr: 0x200, symBinAddr: 0x1246C, symSize: 0x60 }
+  - { offset: 0x4F58E, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation dealloc]', symObjAddr: 0x260, symBinAddr: 0x124CC, symSize: 0x68 }
+  - { offset: 0x4F6B2, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation velocity]', symObjAddr: 0x2C8, symBinAddr: 0x12534, symSize: 0xB0 }
+  - { offset: 0x4F957, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setVelocity:]', symObjAddr: 0x378, symBinAddr: 0x125E4, symSize: 0x228 }
+  - { offset: 0x5011D, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation dynamicsTension]', symObjAddr: 0x608, symBinAddr: 0x1280C, symSize: 0x18 }
+  - { offset: 0x50151, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setDynamicsTension:]', symObjAddr: 0x620, symBinAddr: 0x12824, symSize: 0x28 }
+  - { offset: 0x50190, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation dynamicsFriction]', symObjAddr: 0x648, symBinAddr: 0x1284C, symSize: 0x18 }
+  - { offset: 0x501C4, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setDynamicsFriction:]', symObjAddr: 0x660, symBinAddr: 0x12864, symSize: 0x28 }
+  - { offset: 0x50203, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation dynamicsMass]', symObjAddr: 0x688, symBinAddr: 0x1288C, symSize: 0x18 }
+  - { offset: 0x50237, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setDynamicsMass:]', symObjAddr: 0x6A0, symBinAddr: 0x128A4, symSize: 0x28 }
+  - { offset: 0x50276, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation springSpeed]', symObjAddr: 0x6C8, symBinAddr: 0x128CC, symSize: 0x18 }
+  - { offset: 0x502A9, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setSpringSpeed:]', symObjAddr: 0x6E0, symBinAddr: 0x128E4, symSize: 0x7C }
+  - { offset: 0x5030C, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation springBounciness]', symObjAddr: 0x75C, symBinAddr: 0x12960, symSize: 0x18 }
+  - { offset: 0x5033F, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setSpringBounciness:]', symObjAddr: 0x774, symBinAddr: 0x12978, symSize: 0x7C }
+  - { offset: 0x503A2, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation solver]', symObjAddr: 0x7F0, symBinAddr: 0x129F4, symSize: 0x18 }
+  - { offset: 0x503D6, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation setSolver:]', symObjAddr: 0x808, symBinAddr: 0x12A0C, symSize: 0x54 }
+  - { offset: 0x50415, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation _updatedDynamicsTension]', symObjAddr: 0x85C, symBinAddr: 0x12A60, symSize: 0x74 }
+  - { offset: 0x50488, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation _updatedDynamicsFriction]', symObjAddr: 0x8D0, symBinAddr: 0x12AD4, symSize: 0x74 }
+  - { offset: 0x504FB, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation _updatedDynamicsMass]', symObjAddr: 0x944, symBinAddr: 0x12B48, symSize: 0x74 }
+  - { offset: 0x5056E, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation _appendDescription:debug:]', symObjAddr: 0x9B8, symBinAddr: 0x12BBC, symSize: 0xD8 }
+  - { offset: 0x505BD, size: 0x8, addend: 0x0, symName: '-[POPSpringAnimation(NSCopying) copyWithZone:]', symObjAddr: 0xA90, symBinAddr: 0x12C94, symSize: 0x168 }
+  - { offset: 0x50817, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateD1Ev, symObjAddr: 0xC88, symBinAddr: 0x12E8C, symSize: 0x4 }
+  - { offset: 0x5083A, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateD1Ev, symObjAddr: 0xC88, symBinAddr: 0x12E8C, symSize: 0x4 }
+  - { offset: 0x50858, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateD1Ev, symObjAddr: 0xC88, symBinAddr: 0x12E8C, symSize: 0x4 }
+  - { offset: 0x509D9, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationStateD0Ev, symObjAddr: 0xC8C, symBinAddr: 0x12E90, symSize: 0x14 }
+  - { offset: 0x50ABB, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState6isDoneEv, symObjAddr: 0xDAC, symBinAddr: 0x12EA4, symSize: 0x70 }
+  - { offset: 0x50B8E, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState12hasConvergedEv, symObjAddr: 0x1DA4, symBinAddr: 0x13280, symSize: 0x24C }
+  - { offset: 0x51366, size: 0x8, addend: 0x0, symName: __ZN3POP12SpringSolverINS_7Vector4IdEEE12hasConvergedEv, symObjAddr: 0x1FF0, symBinAddr: 0x134CC, symSize: 0x90 }
+  - { offset: 0x51620, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState7advanceEddP11objc_object, symObjAddr: 0x115C, symBinAddr: 0x12F14, symSize: 0x2C8 }
+  - { offset: 0x51E06, size: 0x8, addend: 0x0, symName: __ZN3POP12SpringSolverINS_7Vector4IdEEE7advanceERNS_7SSStateIS2_EEdd, symObjAddr: 0x23A4, symBinAddr: 0x1355C, symSize: 0x178 }
+  - { offset: 0x51FE0, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState5resetEb, symObjAddr: 0x18A4, symBinAddr: 0x131DC, symSize: 0x50 }
+  - { offset: 0x5238C, size: 0x8, addend: 0x0, symName: __ZN24_POPSpringAnimationState24updatedDynamicsThresholdEv, symObjAddr: 0x18F4, symBinAddr: 0x1322C, symSize: 0x54 }
+  - { offset: 0x5259D, size: 0x8, addend: 0x0, symName: __ZN3POP12SpringSolverINS_7Vector4IdEEE9integrateERNS_7SSStateIS2_EEdd, symObjAddr: 0x251C, symBinAddr: 0x136D4, symSize: 0x174 }
+  - { offset: 0x52885, size: 0x8, addend: 0x0, symName: __ZN3POP12SpringSolverINS_7Vector4IdEEE12accelerationERKNS_7SSStateIS2_EEd, symObjAddr: 0x26F8, symBinAddr: 0x138B0, symSize: 0x58 }
+  - { offset: 0x5291A, size: 0x8, addend: 0x0, symName: __ZN3POP12SpringSolverINS_7Vector4IdEEE8evaluateERKNS_7SSStateIS2_EEddRKNS_12SSDerivativeIS2_EE, symObjAddr: 0x2690, symBinAddr: 0x13848, symSize: 0x68 }
+...
